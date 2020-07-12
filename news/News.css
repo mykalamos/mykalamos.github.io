@@ -21,9 +21,10 @@
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-/*    background-color: #ddd;*/
-}
+    .tab button:hover {
+        background-color: #ddd;
+        color: #000000;
+    }
 
 /* Create an active/current tablink class */
 .tab button.active {
