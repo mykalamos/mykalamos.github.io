@@ -13,5 +13,5 @@
 }
 
 function onLoadCompleted(event) {
-	selectTab(event, 'UKNews');
+	selectTab(event, 'UKNews'); // TODO hardcoded
 }

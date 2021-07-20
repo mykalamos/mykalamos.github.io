@@ -1,11 +1,15 @@
 ﻿body {
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
+.article-header {
+    font-size:25px;
+}
 /* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: inherit;
+    font-size: 30px;
     /*background-color: #f1f1f1;*/
 }
 
