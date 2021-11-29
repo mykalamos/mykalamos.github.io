@@ -1,6 +1,18 @@
 ﻿body {
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
+
+.header-banner {
+    background-color: green;
+    width: 100%;
+    padding: 10px
+}
+
+.header-text {
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 36;
+}
+
 .article-header {
     font-size:25px;
 }
@@ -27,10 +39,10 @@
 }
 
 /* Change background color of buttons on hover */
-    .tab button:hover {
-        background-color: #ddd;
-        color: #000000;
-    }
+.tab button:hover {
+    background-color: #ddd;
+    color: #000000;
+}
 
 /* Create an active/current tablink class */
 .tab button.active {
