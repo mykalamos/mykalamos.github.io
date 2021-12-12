@@ -8,6 +8,11 @@
     padding: 10px
 }
 
+hr.ss
+{
+    border: 1px solid green;
+}
+
 .header-text {
     font-family: DejaVu Sans Mono, monospace;
     font-size: 36px;
