@@ -2,6 +2,15 @@
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
 
+.glyphji-logo {
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50%;
+    font-size: 42;
+    text-decoration: underline;
+}
+
 .header-banner {
     background-color: green;
     width: 100%;
