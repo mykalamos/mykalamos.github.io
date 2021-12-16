@@ -3,13 +3,7 @@
 }
 
 .glyphji-logo {
-    background: black;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 50%;
-    font-size: 42px;
-    text-decoration: underline;
-    border: 2px solid white;
+    vertical-align: bottom;
 }
 
 .header-banner {
