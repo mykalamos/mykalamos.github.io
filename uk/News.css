@@ -12,6 +12,13 @@
     padding: 10px
 }
 
+.footer-banner {
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
 hr.ss
 {
     border: 1px solid green;
