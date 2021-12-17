@@ -15,6 +15,10 @@
     border-bottom: none;
 }
 
+.header-banner-timestamp {
+    color: white;
+}
+
 .footer-banner {
     background-color: green;
     padding: 6px 12px;
@@ -35,6 +39,7 @@ hr.ss
 .header-text {
     font-family: DejaVu Sans Mono, monospace;
     font-size: 36px;
+    color: white;
 }
 
 .article-header {
