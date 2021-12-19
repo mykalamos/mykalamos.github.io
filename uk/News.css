@@ -16,7 +16,10 @@
 }
 
 .header-banner-timestamp {
+    font-family: DejaVu Sans Mono, monospace;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-banner {
