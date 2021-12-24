@@ -2,6 +2,10 @@
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
 
+.summary {
+    font-size: 28px;
+}
+
 .glyphji-logo {
     vertical-align: bottom;
     width: 50px;
