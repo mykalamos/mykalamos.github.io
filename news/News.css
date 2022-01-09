@@ -41,8 +41,9 @@ a.refresh.active {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 4px solid orange;
+    border: 4px solid #ffffef;
     padding: 3px 6px 3px 6px;
+    color: #ffffef;
 }
 
 .header-banner {
