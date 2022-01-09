@@ -33,17 +33,14 @@ a.refresh.hover
 a.refresh.link
 a.refresh.active {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .glyphji-logo {
     vertical-align: bottom;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: 4px solid #ffffef;
-    padding: 3px 6px 3px 6px;
-    color: #ffffef;
+    color: white;
 }
 
 .header-banner {
@@ -80,7 +77,6 @@ hr.ss {
     font-family: DejaVu Sans Mono, monospace;
     font-size: 36px;
     color: white;
-    font-weight: 300;
 }
 
 .article-header {
@@ -95,30 +91,30 @@ hr.ss {
     /*background-color: #f1f1f1;*/
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
-    background-color: inherit;
-    font-size: inherit;
-    font-family: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+        background-color: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-    color: #000000;
-}
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+            color: #000000;
+        }
 
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-    color: #000000;
-}
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+            color: #000000;
+        }
 
 /* Style the tab content */
 .tabcontent {
