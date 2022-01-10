@@ -2,6 +2,10 @@
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
 
+.super-script {
+    font-size: 9px;
+}
+
 .summary {
     font-size: 28px;
 }
