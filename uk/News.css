@@ -6,6 +6,11 @@ span.saturation-blue {
     filter: sepia(1) saturate(5) hue-rotate(180deg);
 }
 
+span.saturation-pink {
+    color: transparent;
+    text-shadow: 0 0 0 pink;
+}
+
 span.underscript-wrapper {
     vertical-align: top;
     display: inline-block;
@@ -94,9 +99,10 @@ hr.ss {
 }
 
 .header-text {
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: Arial;
     font-size: 36px;
     color: white;
+    font-weight: normal;
 }
 
 .article-header {
