@@ -80,6 +80,7 @@ a.refresh.active {
     color: white;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
 }
 
 .footer-banner {
@@ -99,10 +100,10 @@ hr.ss {
 }
 
 .header-text {
-    font-family: Arial;
+    font-family: Garamond, Arial;
     font-size: 36px;
     color: white;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .article-header {
