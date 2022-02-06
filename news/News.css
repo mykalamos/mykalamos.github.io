@@ -2,15 +2,6 @@
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
 
-span.saturation-blue {
-    filter: sepia(1) saturate(5) hue-rotate(180deg);
-}
-
-span.saturation-pink {
-    color: transparent;
-    text-shadow: 0 0 0 pink;
-}
-
 span.underscript-wrapper {
     vertical-align: top;
     display: inline-block;
@@ -80,7 +71,6 @@ a.refresh.active {
     color: white;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bold;
 }
 
 .footer-banner {
@@ -100,10 +90,9 @@ hr.ss {
 }
 
 .header-text {
-    font-family: Garamond, Arial;
+    font-family: DejaVu Sans Mono, monospace;
     font-size: 36px;
     color: white;
-    font-weight: bold;
 }
 
 .article-header {
