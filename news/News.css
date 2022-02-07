@@ -76,7 +76,8 @@ a.refresh.active {
 }
 
 .header-banner-timestamp {
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: Garamond, Arial;
+    font-size: 20px;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -101,7 +102,7 @@ hr.ss {
 
 .header-text {
     font-family: Garamond, Arial;
-    font-size: 36px;
+    font-size: 40px;
     color: white;
     font-weight: bold;
 }
