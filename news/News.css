@@ -11,6 +11,11 @@ span.saturation-pink {
     text-shadow: 0 0 0 pink;
 }
 
+span.saturation-red {
+    color: transparent;
+    text-shadow: 0 0 0 red;
+}
+
 span.underscript-wrapper {
     vertical-align: top;
     display: inline-block;
