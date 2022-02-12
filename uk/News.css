@@ -76,12 +76,12 @@ a.refresh.active {
 }
 
 .header-banner-timestamp {
-    font-family: Garamond, Arial;
-    font-size: 20px;
+    font-family: Arial, Calibri;
+    font-size: 16px;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .footer-banner {
@@ -101,10 +101,10 @@ hr.ss {
 }
 
 .header-text {
-    font-family: Garamond, Arial;
+    font-family: Arial, Calibri;
     font-size: 40px;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .article-header {
