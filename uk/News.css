@@ -2,7 +2,6 @@
     font-family: Verdana, Arial, 'Arial Narrow', sans-serif
 }
 
-
 * {
     box-sizing: border-box;
 }
@@ -38,7 +37,15 @@ span.underscript {
 }
 
 .summary {
+    width: 95%;
     font-size: 28px;
+    float: left;
+}
+
+.summary-expand {
+    width: 5%;
+    font-size: 28px;
+    float: right;
 }
 
 .refresh {
@@ -127,6 +134,14 @@ hr.ss {
     font-size: 25px;
 }
 
+.hiddenx {
+    display: none;
+}
+
+.displayed {
+    display: block;
+}
+
 .link {
     width: 80%;
     font-size: 1vw;
@@ -146,7 +161,6 @@ hr.ss {
 }
 
 @media screen and (max-width: 800px) {
-
     .link {
         width: 100%;
         font-size: 5vw;

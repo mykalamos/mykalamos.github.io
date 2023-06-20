@@ -15,3 +15,20 @@
 function onLoadCompleted(event, divId) {
     selectTab(event, divId);
 }
+
+function toggleVisibility(t) {
+    var f = true;
+    document.querySelectorAll('[id=' + t + ']').forEach(element => {
+        if (element.style.display == "none")
+            element.style.display = "block";
+        else {
+            element.style.display = "none";
+            f = false;
+        }
+    });
+    var g = document.getElementById(t + "Icon")
+    if (f)
+        g.innerHTML = "&#x21F1;"
+    else
+        g.innerHTML = "&#x21F2;"
+}
