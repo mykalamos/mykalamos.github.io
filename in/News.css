@@ -44,11 +44,8 @@ span.underscript {
 
 .summary-expand {
     width: 5%;
+    font-size: 28px;
     float: right;
-}
-
-.summary-expand-text {
-    font-size: 32px;
 }
 
 .refresh {
