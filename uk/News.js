@@ -17,18 +17,18 @@ function onLoadCompleted(event, divId) {
 }
 
 function toggleVisibility(t) {
-    var f = true;
+    var displayed = true;
     document.querySelectorAll('[id=' + t + ']').forEach(element => {
-        if (element.style.display == "none")
-            element.style.display = "block";
+        if (element.className == "hiddenx")
+            element.className = "displayed";
         else {
-            element.style.display = "none";
-            f = false;
+            element.className = "hiddenx";
+            displayed = false;
         }
     });
-    var g = document.getElementById(t + "Icon")
-    if (f)
-        g.innerHTML = "&#x21F1;"
+    var icon = document.getElementById(t + "Icon")
+    if (displayed == true)
+        icon.innerHTML = "&#x21F1;"
     else
-        g.innerHTML = "&#x21F2;"
+        icon.innerHTML = "&#x21F2;"
 }
