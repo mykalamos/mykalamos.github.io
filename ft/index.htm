@@ -6,7 +6,7 @@
 		<script type="text/javascript" src="Ft.js"></script>
 	</head>
 	<body onload="onLoadCompleted(event)">
-		<div>Sun 24 Nov 2024 10:56:04</div>
+		<div>Sun 24 Nov 2024 11:56:38</div>
 		<div class="tab">
 					  <button class="tablinks" onclick="selectTab(event, 'Main')">Main</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Africa')">Africa</button>
@@ -16,9 +16,9 @@
 		  			  <button class="tablinks" onclick="selectTab(event, 'Arts')">Arts</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Asia Pacific')">Asia Pacific</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Books')">Books</button>
+		  			  <button class="tablinks" onclick="selectTab(event, 'Business Books')">Business Books</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Business Education')">Business Education</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Business Travel')">Business Travel</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Capital Markets')">Capital Markets</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'China')">China</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Climate')">Climate</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Commodities')">Commodities</button>
@@ -33,13 +33,14 @@
 		  			  <button class="tablinks" onclick="selectTab(event, 'Equities')">Equities</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Europe')">Europe</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Financials')">Financials</button>
+		  			  <button class="tablinks" onclick="selectTab(event, 'FT Edit')">FT Edit</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'FT Globetrotter')">FT Globetrotter</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'FT Magazine')">FT Magazine</button>
+		  			  <button class="tablinks" onclick="selectTab(event, 'FT Schools')">FT Schools</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Fund Management')">Fund Management</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Global Economy')">Global Economy</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Health')">Health</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'HTSI')">HTSI</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Industrials')">Industrials</button>
+		  			  <button class="tablinks" onclick="selectTab(event, 'Investments')">Investments</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Letters')">Letters</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Lex')">Lex</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Markets')">Markets</button>
@@ -47,19 +48,16 @@
 		  			  <button class="tablinks" onclick="selectTab(event, 'Media')">Media</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Middle East war')">Middle East war</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Moral Money')">Moral Money</button>
+		  			  <button class="tablinks" onclick="selectTab(event, 'Next Act')">Next Act</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Obituaries')">Obituaries</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Opinion')">Opinion</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Opinion Home')">Opinion Home</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Pensions')">Pensions</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Personal Finance')">Personal Finance</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Professional Services')">Professional Services</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Recruitment')">Recruitment</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Semiconductors')">Semiconductors</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Social Media')">Social Media</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Style')">Style</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Tax')">Tax</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Tech')">Tech</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Tech Home')">Tech Home</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Tech Sector')">Tech Sector</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Telecoms')">Telecoms</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'The Big Read')">The Big Read</button>
@@ -73,7 +71,6 @@
 		  			  <button class="tablinks" onclick="selectTab(event, 'UK Home')">UK Home</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'UK Politics')">UK Politics</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'US')">US</button>
-		  			  <button class="tablinks" onclick="selectTab(event, 'Visual and data journalism')">Visual and data journalism</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'War in Ukraine')">War in Ukraine</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Wealth Management')">Wealth Management</button>
 		  			  <button class="tablinks" onclick="selectTab(event, 'Working It')">Working It</button>
@@ -83,17 +80,16 @@
 				<div id="Main" class="tabcontent">
 			<h2>Main</h2>	
 				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/da966006-88e5-4c25-9075-7c07c4702e06" target="_blank">Russia recruits Yemeni mercenaries to fight in Ukraine</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e8d2fa11-e9c3-4509-b922-0a97e540ca1d" target="_blank">The Trump vibe shift was there for all to see</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/182e2ea3-456f-4db8-bb87-38e7880c575a" target="_blank">Top Biden adviser warns of ‘chaos’ if Trump raises tariffs and guts IRA</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7a523d3a-c9be-4fd1-af88-0f40e5e40a12" target="_blank">Crime boss takes on Sinn Féin leader and Brussels veteran in Dublin election</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8292727b-48a9-489a-8b69-443271ba3957" target="_blank">Do they know it’s Africa, at all?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c1031b6-2917-4e0f-904a-45f6cd20059e" target="_blank">UN climate summit’s $300bn deal slammed as ‘stage-managed’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/91865463-4b93-448c-95bb-8525ccb1016e" target="_blank">Brits retiring abroad could avoid UK inheritance tax under new loophole</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8292727b-48a9-489a-8b69-443271ba3957" target="_blank">Do they know it’s Africa, at all?</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f428e4ff-4dd9-4613-8485-dfc77fa154ec" target="_blank">Hospitals urged to check staff use of WhatsApp to ensure patient safety</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ab0cb3fc-e45d-454b-83d9-c0284550aafe" target="_blank">Britain’s political consensus on climate starts to fracture</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/22df8cf6-d224-4ce8-8d73-a5e3f995fc2c" target="_blank">Goldman Sachs takes $900mn hit on Northvolt investment</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c1031b6-2917-4e0f-904a-45f6cd20059e" target="_blank">UN climate summit’s $300bn deal slammed as ‘stage-managed’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4ba69bac-b314-4b28-a9b1-f566bfacd7a8" target="_blank">China’s cash-strapped shoppers drawn to second-hand luxury items</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/09373987-0118-4168-8aec-48f849003ade" target="_blank">How John Lewis’s CEO tackled a crisis</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
@@ -256,14 +252,12 @@
 			<h2>Arts</h2>	
 				<ol>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/28e21258-2067-4c4b-bc2d-0645336530fa" target="_blank">The Great Mughals at the V&amp;A — art, opulence and military power</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4fdf2681-8955-4276-a731-0acbf04f37cf" target="_blank">Electric Dreams at Tate Modern — when artists embraced the power of technology</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bf6337e4-ca94-426d-8e98-85c77585efd8" target="_blank">The 80s: Photographing Britain — Tate’s stark portrait of Thatcher’s decade </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ce84c5f3-cff2-411c-8060-fc5a9dd4522d" target="_blank">Akram Khan’s Gigenis — a dance of play and power</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6aaf7983-17f9-474d-8b82-b5b0840bd182" target="_blank">What next for English National Opera? ‘This was never about shifting the Coliseum to Manchester’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/19504fed-5e39-488f-b5b8-c9a7eb8a6b84" target="_blank">Six films to watch this week</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cdcc776e-ce4b-4e37-ba72-2060424efd60" target="_blank">How the Orphists found beauty in the chaos of 1910s modernity</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9f06fec2-aaeb-4b2c-8a8b-94db86a83f1c" target="_blank">Father John Misty is on particularly extravagant form with Mahashmashana</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/31c14c21-0e2d-455f-8bd5-9900c51fa16e" target="_blank">Foraging’s frontiers: the ceramicists telling stories with ‘wild clay’</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4fdf2681-8955-4276-a731-0acbf04f37cf" target="_blank">Electric Dreams at Tate Modern — when artists embraced the power of technology</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c7b14cf9-9b05-4c2e-a12a-6e73feba19f2" target="_blank">The lust for lustreware, explained</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c58bf2c0-13ba-401e-9cfa-0e70b98f9382" target="_blank">Why Maison Rocher is the most talked-about apartment in Paris</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/97050b29-02bf-4a2c-8629-9d1c8509dc55" target="_blank">Hollywood gives thanks for blockbusters after long lean period</a></li>
@@ -273,6 +267,7 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1a9a2e89-abef-4299-bc9c-3614596d6b22" target="_blank">Six months with one of the most talented painters of her generation</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8292727b-48a9-489a-8b69-443271ba3957" target="_blank">Do they know it’s Africa, at all?</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/17e75a93-d9d1-4e83-a3f9-c7df1edaf298" target="_blank">Annie Leibovitz isn’t ready to relax yet</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9f06fec2-aaeb-4b2c-8a8b-94db86a83f1c" target="_blank">Father John Misty is on particularly extravagant form with Mahashmashana</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/250d98f2-dd3c-46db-8b65-92e79b488c37" target="_blank">How to host it – a winter feasting special</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/aed82961-9fc5-45e4-871f-f37afdd720fb" target="_blank">Culture chat: ‘Wicked’ hits the high notes</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/37b5f462-d737-4db2-a64d-18cc88c4e2c6" target="_blank">Mediha — Yazidi teenager tells her story in a compelling documentary</a></li>
@@ -286,6 +281,7 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c53c1bfc-67cf-4793-915c-6dea2712d6a9" target="_blank">Crypto chief buys banana for $6mn at contemporary art auction </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3d61a373-4ec6-4f02-ac2b-1136d62bda47" target="_blank">Miles Davis in France 1963 &amp; 1964 — soul-searing performances</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6f1fd3a1-3346-46e2-8f8e-9c8f767fc228" target="_blank">Michael Kiwanuka: Small Changes — a heightened realm of fantasy</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cdcc776e-ce4b-4e37-ba72-2060424efd60" target="_blank">How the Orphists found beauty in the chaos of 1910s modernity</a></li>
 									</ol>			
 		</div>
 				<div id="Asia Pacific" class="tabcontent">
@@ -358,6 +354,36 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/36221b12-cb59-49d4-a960-e7015c4ea108" target="_blank">The Bridge Between Worlds — stories of connection and division </a></li>
 									</ol>			
 		</div>
+				<div id="Business Books" class="tabcontent">
+			<h2>Business Books</h2>	
+				<ol>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f3e9dec3-28bb-49b6-80ec-11e5b10afa54" target="_blank">Best books of 2024: Business</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/33231b2c-7dbd-46e9-a433-c58443938542" target="_blank">Business authors struggle to win recognition for work</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a407d733-57f0-4a54-a5ec-a9e62adfb214" target="_blank">Business books: What to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cc2b2c1a-d629-45a2-8141-fec414fd2577" target="_blank">The New Nature of Business — billionaire learns how to sweeten the pill</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4e3f7ca0-d85f-4650-b512-9f4800c76f05" target="_blank">Over Work — have our jobs become too greedy for our time?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9adb8f15-f488-4a48-86d5-983aaef0dba3" target="_blank">Business books: what to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/27f60ee7-94cc-4098-9f5a-52fbf2f71b39" target="_blank">FT and Schroders Business Book of the Year 2024 — the shortlist</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cbb61ac5-4bfc-4e6e-ac64-e3a7ea829fdf" target="_blank">The Corporation in the 21st Century — catching the next wave of management theory </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7e5c2944-d2af-4c12-9938-0ab4e65e8698" target="_blank">FT and Schroders Business Book of the Year 2024 — the longlist</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ae9f55eb-359b-4427-bae9-e5d02f922df9" target="_blank">Business Books: What to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/320a3b66-1dc7-444c-955d-1e9e1d11b883" target="_blank">Business books: what to read this month </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a54dc0d9-a65e-4930-ac8d-b96c23238f96" target="_blank">Best summer books of 2024: Business</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8ae5a0e1-9d63-476b-b9ea-083f884a0bb9" target="_blank">Business books: what to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/48bd51aa-ea9a-4cd1-9d20-448ee5ce80f8" target="_blank">The Everything War — taking on Amazon’s march to monopoly</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7f553849-b7c7-4752-b329-69618b1881af" target="_blank">Business Book of the Year Award 2024: winners pick their favourites</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b9a5f679-3f6d-4867-9517-e8437492ec19" target="_blank">Default — the fight over Argentina’s $100bn debt crisis </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c7e08d0-ef38-4a01-bcbb-3cc4f8583544" target="_blank">Business books: what to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a97651e3-13f9-48eb-b7f6-169d4071b98e" target="_blank">Dorsey, Musk, Trump and the battle for Twitter</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/517e5e1c-5f0b-4ad1-8437-7e81326e92d9" target="_blank">Business books: what to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3dd23af8-d926-4a0c-b755-f9c525009d7c" target="_blank">Business books: what to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cecde93c-8ce9-40ab-9edb-1282d420024e" target="_blank">The best new books on economics</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/397db84e-ce4b-4a27-b026-df700eba8b6e" target="_blank">Business books: what to read this month</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/18f2fcd0-b1b5-4b00-a7a4-74ce213dfc8d" target="_blank">Breaking Twitter — Elon Musk’s controversial social media takeover</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/01072b62-29d6-4758-81af-8b14dacdd653" target="_blank">FT book award winner Amy Edmondson: Fail fast, fail often-mantras are ‘sloppy’</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/63027e28-724a-40bc-a929-7dec5125926c" target="_blank">The transfer of wealth from boomers to ‘zennials’ will reshape the global economy</a></li>
+									</ol>			
+		</div>
 				<div id="Business Education" class="tabcontent">
 			<h2>Business Education</h2>	
 				<ol>
@@ -373,20 +399,20 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8a354695-0ed9-44eb-bd22-b017a4f1cbbe" target="_blank">Balancing theory and application in business school research</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/356feb40-af73-49ec-9f17-b50bc011b569" target="_blank">Bridging the gap between business school research and policymaking</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b03691be-19ef-4164-9a74-7592d7c73457" target="_blank">We need new tools to predict climate risks </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/70d16228-8669-4c4a-99dc-285f33e6dc8a" target="_blank">How an MBA helped save a china dynasty</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3da5e5e2-827d-432f-83c0-e9071b6e5b66" target="_blank">How an Executive MBA helped a gendarme climb the ranks  </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3405a512-5cbb-11e1-8f1f-00144feabdc0" target="_blank">50 Journals used in FT Research Rank</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/aa9e810d-4508-4213-8e9a-1fc2314006a5" target="_blank">What I learnt from my MBA</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/403b1118-6dd8-4d8d-bd2c-a0923fc50c97" target="_blank">More Executive MBA students look to switch careers</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/277af17a-15d1-41d0-9674-f0460f3eccd9" target="_blank">Why AI is the key to unlocking leadership opportunities for women</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6cd6599a-24cd-4205-a80f-b164cf1e2744" target="_blank">What the ranking report tells us about the Executive MBA in 2024</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e321e88a-50cc-4398-b27b-e412bda1130f" target="_blank">How a medic used an EMBA to scale up her impact</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ae6fc1b8-fe06-4c91-a452-bf4546f49c88" target="_blank">How to choose the right Executive MBA</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3da5e5e2-827d-432f-83c0-e9071b6e5b66" target="_blank">How an Executive MBA helped a gendarme climb the ranks  </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a126a4ce-c9e6-4ef3-8291-9bd6a8af79b3" target="_blank">Older alumni using Executive MBAs as start-up springboards, FT ranking shows</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/11e44923-fcdb-40c9-9798-bc3a20d2d05c" target="_blank">Art meets commerce at business school</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/19304919-9128-4c27-b5c3-4f668dd045df" target="_blank">Power and influencers: CEOs on social media</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f71b8046-9f7d-44c8-bbb2-435e8a70b02a" target="_blank">Why mature executives return to study for an EMBA</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1cb56359-1e05-4f16-bc68-ba555c3bd70e" target="_blank">What I learnt on my EMBA</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/731245a7-7bef-441e-913f-32948ee054c4" target="_blank">Business schools step up executive coaching </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/403b1118-6dd8-4d8d-bd2c-a0923fc50c97" target="_blank">More Executive MBA students look to switch careers</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1509adce-6733-41b2-9431-7e7de70f0bc4" target="_blank">The business case for the planet</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5d4847b7-2f6c-41a2-8b03-c6bb829a6f5b" target="_blank">Business school teaching case study: capture or cut carbon to make steel greener?</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3ed4a5ed-3abe-4c16-8bac-75c899c6e2da" target="_blank">Competition grows for the Executive MBA</a></li>
@@ -427,36 +453,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5dc7b22b-ae08-4367-b3b9-8484a05bf540" target="_blank">Cities on screen: Venice on film </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0b2436ea-cfbc-46c9-91c1-a7d0e1b30c53" target="_blank">Beyond the Giardini and the Arsenale: five Venice Biennale shows across the city to catch now</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7fed06b5-c830-46f8-8602-f49c4fd2b2e9" target="_blank">FT readers: your tips on where to find calm and authenticity in Venice </a></li>
-									</ol>			
-		</div>
-				<div id="Capital Markets" class="tabcontent">
-			<h2>Capital Markets</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cbc6cbb8-a91c-48b5-922e-ca5246956b2b" target="_blank">German bond investors bet on an end to Berlin’s ‘debt brake’ </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/84110adc-5087-4921-ad08-49baba331fbe" target="_blank">Strong dollar set to hit emerging market bonds, warn investors</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bc6e6165-34e9-4aed-ad96-7bb51cb76fee" target="_blank">Thames Water faced with £100mn bill from creditors’ advisers</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b9f86669-9703-427d-8b9c-a00328ec58a6" target="_blank">Leveraged hedge funds magnified August market sell-off, Fed says</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4f750e89-b64b-4aa8-b8b8-de7e37ae2121" target="_blank">Brookfield commits £900mn to backstop Canary Wharf refinancing</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/de97f489-f3ab-4148-98c9-3c518b878d35" target="_blank">Foreigners dump Chinese government bonds as popular trade unwinds</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/91f84874-cc05-4937-8878-0f64723879c9" target="_blank">How is private credit weathering its first big rate hiking cycle?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/11fb7da7-d529-4e4e-a82f-df6ffbc25565" target="_blank">BofA targets regional banks to expand risk transfer market</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8fbdaed9-2ed8-424e-b221-7473adcd8826" target="_blank">Playing hardball or facing hard times?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8f2dac5d-b64a-43dc-8f4b-5e76e1a60a43" target="_blank">ECB warns low growth and high debt risk Eurozone crisis</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f75c0fc5-8377-4f6d-9609-876eb6a2ebf3" target="_blank">Citadel Securities aims to become ‘material player’ in Eurozone bond trading</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5e9f42b5-cb14-45fc-9804-279c28fd8418" target="_blank">Portfolio trading is reshaping credit markets</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2c25e595-0842-4e44-9f92-efc40446c627" target="_blank">Spirit bankruptcy gives priority boarding to opportunistic creditors</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f0516b4b-bdc3-4752-84f6-ee1dc9a7baff" target="_blank">Vanguard says shareholders can vote for profits over ESG issues</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8e66b15a-26dd-465b-b96f-6492b7222442" target="_blank">COP29: A new plan for finding climate cash</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5f9eb247-2851-4da7-ac19-62761fb46d1d" target="_blank">Companies rush to US bond market as Trump rally cuts borrowing costs</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e771dada-c39e-43d7-b374-ca476ceed05f" target="_blank">Q&amp;A: Experts answered your questions on trade and markets in the Trump era</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/110cb4cc-9096-43d6-807c-2c361aa69140" target="_blank">China borrows almost as cheaply as US in return to dollar bond market</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3848e730-3f77-4753-a28e-8e8dc16896c2" target="_blank">Ukraine’s bonds jump as investors bet Trump will end war</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3c526fee-4f4a-4128-affc-006b46814022" target="_blank">Dollar hits six-month high as Trump tariff talk fuels inflation fears </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/46528a78-fe59-4f14-9909-59001cf45fb2" target="_blank">ETF flows smash full year record</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/68978a40-226e-43f5-b56a-bbc5896f578b" target="_blank">Treasury yields are red flag for markets’ Trump euphoria</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9ff5adff-0af5-4a61-b008-d56e31f72f76" target="_blank">Asset managers face growing scrutiny over sustainability claims</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/508771ea-2d4f-420e-9631-4d9a1dcf8062" target="_blank">How Thames Water became a battleground for hedge funds</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/367c2df5-d95e-429c-983a-18ecbdfc122a" target="_blank">Inflation worries seep back into US bond market</a></li>
 									</ol>			
 		</div>
 				<div id="China" class="tabcontent">
@@ -599,6 +595,8 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/22df8cf6-d224-4ce8-8d73-a5e3f995fc2c" target="_blank">Goldman Sachs takes $900mn hit on Northvolt investment</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c1031b6-2917-4e0f-904a-45f6cd20059e" target="_blank">UN climate summit’s $300bn deal slammed as ‘stage-managed’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e164df19-54e2-48d8-b07c-50687813bf56" target="_blank">Jaguar boss defends ‘bold’ rebranding after backlash over video</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/631f4b95-ad8b-4e9a-bedc-9d697c5dd00f" target="_blank">Buyout shops use Trump rally to cut borrowing costs and fund dividends</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bfb404e8-aa7e-4795-a60c-454a310293cc" target="_blank">Trump’s return sends shivers through the anti-misinformation world</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e42d5e3e-30ff-4698-8348-d0e6731f2271" target="_blank">Western miner Eramet sees no profits in nickel without Chinese partners</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4ba69bac-b314-4b28-a9b1-f566bfacd7a8" target="_blank">China’s cash-strapped shoppers drawn to second-hand luxury items</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
@@ -619,8 +617,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cc429d48-bb7c-46ce-9aac-cff604c72ce3" target="_blank">The lure of Lidl’s middle is no riddle </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b9f86669-9703-427d-8b9c-a00328ec58a6" target="_blank">Leveraged hedge funds magnified August market sell-off, Fed says</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0179adf7-e22e-4969-8143-986517b669d4" target="_blank">News updates from November 22: Trump expected to pick Bessent as Treasury secretary; UK business activity slumps to 13-month low</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9e51f5d0-2816-4d85-83da-d22214cf0dc3" target="_blank">Ripe for a turnaround: Mulberry and Burberry chart a new course</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4d19331-bcee-48a0-836e-8092d4d94d5b" target="_blank">Thales denies allegations by UK and French agencies over suspected bribery</a></li>
 									</ol>			
 		</div>
 				<div id="Companies Home" class="tabcontent">
@@ -645,6 +641,8 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/22df8cf6-d224-4ce8-8d73-a5e3f995fc2c" target="_blank">Goldman Sachs takes $900mn hit on Northvolt investment</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c1031b6-2917-4e0f-904a-45f6cd20059e" target="_blank">UN climate summit’s $300bn deal slammed as ‘stage-managed’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e164df19-54e2-48d8-b07c-50687813bf56" target="_blank">Jaguar boss defends ‘bold’ rebranding after backlash over video</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/631f4b95-ad8b-4e9a-bedc-9d697c5dd00f" target="_blank">Buyout shops use Trump rally to cut borrowing costs and fund dividends</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bfb404e8-aa7e-4795-a60c-454a310293cc" target="_blank">Trump’s return sends shivers through the anti-misinformation world</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e42d5e3e-30ff-4698-8348-d0e6731f2271" target="_blank">Western miner Eramet sees no profits in nickel without Chinese partners</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4ba69bac-b314-4b28-a9b1-f566bfacd7a8" target="_blank">China’s cash-strapped shoppers drawn to second-hand luxury items</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
@@ -665,8 +663,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cc429d48-bb7c-46ce-9aac-cff604c72ce3" target="_blank">The lure of Lidl’s middle is no riddle </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b9f86669-9703-427d-8b9c-a00328ec58a6" target="_blank">Leveraged hedge funds magnified August market sell-off, Fed says</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0179adf7-e22e-4969-8143-986517b669d4" target="_blank">News updates from November 22: Trump expected to pick Bessent as Treasury secretary; UK business activity slumps to 13-month low</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9e51f5d0-2816-4d85-83da-d22214cf0dc3" target="_blank">Ripe for a turnaround: Mulberry and Burberry chart a new course</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4d19331-bcee-48a0-836e-8092d4d94d5b" target="_blank">Thales denies allegations by UK and French agencies over suspected bribery</a></li>
 									</ol>			
 		</div>
 				<div id="Crypto" class="tabcontent">
@@ -769,10 +765,10 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e7a167bd-f643-4eeb-a828-921da872b5af" target="_blank">How to keep it safe </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/66026252-5d06-4a2f-917e-07a5e6040599" target="_blank">CrowdStrike is down but not out </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/71f6551a-90c5-4ba5-b314-7f3b0c000551" target="_blank">Microsoft plans Windows security overhaul after CrowdStrike outage</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1e9864ee-e041-4b21-984b-2fd4e1008cd9" target="_blank">Royal Mail hackers LockBit hobbled by global law enforcement </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9ac38cf4-874e-4842-8be9-8fac2a3e898d" target="_blank">Time to get serious about the dangers of quantum computing</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f1ba12ac-fe1d-4a51-b2e7-077f392115a7" target="_blank">India expands airport facial recognition amid surveillance fears</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a370e423-8bd8-4d26-9a95-3abad4a3013f" target="_blank">Why Russian and Chinese spy scandals are a threat to us all</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7cea944c-2863-43c7-ae9f-c28c76f2f7b7" target="_blank">Why cyber risk managers need to fight AI with AI</a></li>
 									</ol>			
 		</div>
 				<div id="Emerging Markets" class="tabcontent">
@@ -896,8 +892,8 @@
 				<div id="Europe" class="tabcontent">
 			<h2>Europe</h2>	
 				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/da966006-88e5-4c25-9075-7c07c4702e06" target="_blank">Russia recruits Yemeni mercenaries to fight in Ukraine</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7a523d3a-c9be-4fd1-af88-0f40e5e40a12" target="_blank">Crime boss takes on Sinn Féin leader and Brussels veteran in Dublin election</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/da966006-88e5-4c25-9075-7c07c4702e06" target="_blank">Russia recruits Yemeni mercenaries to fight in Ukraine</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a99b2223-eb3c-4fe8-bb43-576b2b48af76" target="_blank">German gloom deepens as Trump tariff threat rattles exporters </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c58bf2c0-13ba-401e-9cfa-0e70b98f9382" target="_blank">Why Maison Rocher is the most talked-about apartment in Paris</a></li>
@@ -922,12 +918,12 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6b16546d-1672-41e1-9de2-bd8f44a8cc64" target="_blank">EU’s top central bankers warn economy at risk from political paralysis</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e1524b4f-38b0-4dfe-a63f-e1eaefe0c5a9" target="_blank">Stand-off over UN climate summit host country for 2026</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/56632685-5306-4d2e-b1b2-58b939207350" target="_blank">German election 2025: Who’s ahead in the polls?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/34ac518b-e696-4a19-b91a-d9f273083f3d" target="_blank">Russia fired experimental missile at Ukraine, says Putin</a></li>
 									</ol>			
 		</div>
 				<div id="Financials" class="tabcontent">
 			<h2>Financials</h2>	
 				<ol>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/631f4b95-ad8b-4e9a-bedc-9d697c5dd00f" target="_blank">Buyout shops use Trump rally to cut borrowing costs and fund dividends</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/22df8cf6-d224-4ce8-8d73-a5e3f995fc2c" target="_blank">Goldman Sachs takes $900mn hit on Northvolt investment</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca809d14-5fb1-4586-b1ae-bf8ccae7d300" target="_blank">Ex-Barclays chief John Varley pulled back into fight to clear bank’s name</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3f8fffe7-bd2e-417b-ae8a-51497203d74b" target="_blank">What Generation Alpha wants to learn about money </a></li>
@@ -952,7 +948,51 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/12a5630c-64e5-451e-8f85-3bafc6965bdd" target="_blank">French asset manager Tikehau considering New York listing </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/44c4504c-8d79-4b09-bf72-b04cf8082736" target="_blank">Thrive Capital: the venture firm staking billions on a few big bets</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/11fb7da7-d529-4e4e-a82f-df6ffbc25565" target="_blank">BofA targets regional banks to expand risk transfer market</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/dfb0856c-32e1-4875-b54a-ef25bc1e9e0d" target="_blank">US fraud charges roil Adani’s empire</a></li>
+									</ol>			
+		</div>
+				<div id="FT Edit" class="tabcontent">
+			<h2>FT Edit</h2>	
+				<ol>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/625d2043-a5a4-4d6d-bbe9-42e524a211dd" target="_blank">The mind-bending new science of measuring time</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0684127a-61de-41f4-af39-d36e0a1ffc5d" target="_blank">Gisèle Pelicot, the woman at the heart of a trial that has shocked France</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5283f0f0-2eb7-44e2-b477-a9999400065c" target="_blank">What the ‘manopause’ tells us about the gender gap </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8cc39e9f-d050-4f46-9187-aed5ae32b2cb" target="_blank">The myths that made Elon Musk </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bddc54ba-3dc1-4a1d-a245-ae8d83ef9573" target="_blank">Best books of 2024: Roula Khalaf, Janan Ganesh and other FT journalists pick their favourites</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/437e5d8a-1e5b-4792-8f45-9d63dad291d8" target="_blank">Juliet, Stroud: ‘Raise your voices and howl for The Chefs’ — review</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c8396df2-fd20-42ea-953b-67854dce1ce5" target="_blank">The tribulations of being an American diner in London</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5d1d1137-c0ae-476e-941e-6811d59cea28" target="_blank">Confessions of a farmer’s daughter</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b1625614-8fc3-436b-a82f-c13d357aba18" target="_blank">Welcome to FT Edit</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/741772c0-ee76-4d3d-bfcd-4fabc1fb405d" target="_blank">Exclusive: The secret lives of MI6’s top female spies </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1364e8c6-f8db-4fea-8d07-90c160dade83" target="_blank">The Kamala Harris almost nobody knows</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/685a4f4d-2826-494e-a8ab-e561801fb7b3" target="_blank">What and how to read</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5" target="_blank">‘Enshittification’ is coming for absolutely everything</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/26be349d-4717-4815-a221-a749e29de2b2" target="_blank">What I wish I’d known before my smartphone was snatched </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8a327df9-07aa-48be-a87f-a8a3cc5cdada" target="_blank">The six types of people you meet at Lunch with the FT</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0e600c68-f873-47d0-ab0c-904a90505e71" target="_blank">What I’ve learnt from two decades eating in Paris</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5e972192-733f-4fdd-b765-39638e4a5796" target="_blank">Embarrassment, what is it good for? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/754e598e-e96d-4a32-b4d2-a949f762b537" target="_blank">What are banks doing with your financial data?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ab87b720-dabf-469b-b4df-97225f1bb670" target="_blank">Best books of 2024: Politics</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7889590f-c287-443b-afbf-f78a19caff57" target="_blank">The UK’s high-wire act between the US and Europe</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e5c1cc4b-5d8a-4987-862b-737f10a31ebf" target="_blank">High growth doesn’t tell the story of the US economy</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/439d595c-a144-4c14-9ed4-1455d604255e" target="_blank">Israelis rally around war effort after ICC’s Netanyahu warrant</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/92377da7-43ef-4ef5-a4b8-ead502f7e18e" target="_blank">Trump may be right about Ukraine’s endgame </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/30510160-88d0-4d5f-9882-b79f131d3ada" target="_blank">Mass X-odus: professionals desert Musk’s network</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/44c4504c-8d79-4b09-bf72-b04cf8082736" target="_blank">Thrive Capital: the venture firm staking billions on a few big bets</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d3743bd8-d2fd-4035-81ad-ecb4ec582b68" target="_blank">‘It takes a particular kind of madness’: new life for Ireland’s Big Houses</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4736fe5e-3f6f-40a4-a912-e9e4b01dc3b6" target="_blank">Scholz faces his ‘Biden moment’</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/19dec434-1837-4e64-aa88-b7d7864e54b4" target="_blank">The man who links Donald Trump with war-torn Lebanon</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6a039600-d4f3-4aaa-ae0f-e4ca72cf2268" target="_blank">How gangsters took over Gaza’s aid routes</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/99041d6c-c5a3-40ba-9234-6ec0802a86bc" target="_blank">What’s to be done about Delhi’s toxic smog?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b8bfdc52-482e-49cd-8dfb-02c9443856aa" target="_blank">How Britain squandered the best hand in the world</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/37563989-0e46-4fce-a927-dd8991a120a2" target="_blank">Investors need to know when to put down the phone</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/63e6ef98-363e-435c-9621-c628086300d0" target="_blank">How oil ‘wildcatters’ ended up in charge of Trump’s energy policy</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d5fa4853-bd5c-435f-9464-82a2a4dd5232" target="_blank">Best books of 2024: Economics</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/65a6df6d-8e78-44a9-8690-bf2fa93d7fcc" target="_blank">Milan beats London and New York as home to most expensive shopping street</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f800bdd1-120d-4fb2-a63c-8aa33c6485d5" target="_blank">Faulty data overstates surge in UK economic inactivity, finds report</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/634ccc3f-2232-43d2-9860-8b4dc27e20c2" target="_blank">Karaoke means booze – but what food works best?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/26cf7b10-2d2a-4549-b103-e9183d461523" target="_blank">The rehabilitation of KPMG in the UK</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/da8c29b0-0a90-4d2a-8535-c8459ccc7bb4" target="_blank">Chinese tech groups build AI teams in Silicon Valley</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d7f921d5-3668-4b6b-a98d-2681ad73610f" target="_blank">Trump’s social media group in talks to buy crypto trading venue</a></li>
 									</ol>			
 		</div>
 				<div id="FT Globetrotter" class="tabcontent">
@@ -1031,10 +1071,69 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4fc46c0a-6d8a-4d11-a7f6-f2cf7197f7bb" target="_blank">Recipe: The FT Weekend editor’s favourite mezze</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ef8ffac0-75f8-4b6a-ad15-5f3879764815" target="_blank">Why a nemesis is one of life’s greatest gifts</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d5424651-da3f-478d-be7f-ffe893a43222" target="_blank">The music executive all the sad girls want</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9aa3b19d-87e9-41e3-9ce0-ebf06c8f407a" target="_blank">Consuelo Kanaga’s pioneering photography</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ced1a4a2-edda-44ef-aa45-e7e863ba5d8b" target="_blank">My quest to visit every 4.8-star bar in Manhattan</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9aa3b19d-87e9-41e3-9ce0-ebf06c8f407a" target="_blank">Consuelo Kanaga’s pioneering photography</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/117f4c2e-4c14-4495-86ed-e906afeea4f1" target="_blank">Can Australia make Cab Sav cool again?</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2fb8ff91-755a-4068-9aed-9e8b0c2e6782" target="_blank">FT Weekend Magazine Crossword Number 716</a></li>
+									</ol>			
+		</div>
+				<div id="FT Schools" class="tabcontent">
+			<h2>FT Schools</h2>	
+				<ol>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7ab6a9ec-1e4e-11e8-aaca-4574d7dabfb6" target="_blank">Free FT for schools</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9aaf9221-610e-421a-9da7-7710c65249fc" target="_blank">Economics class: teaching ideas</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e2d2637c-8183-4f63-853b-3835bdb4af50" target="_blank">Geography class</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a3f47f79-27b6-45b7-9a95-a431d3ebeec8" target="_blank">What A level politics students should know about UK and US government</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fa1c0d2b-eb9d-4365-a50b-1161422b3190" target="_blank">Psychology class: stories for study</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c382915d-7186-4a77-afe8-c8ace72a5428" target="_blank">Resources and teaching ideas for US high school economic classes </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9331439f-ea55-4e2f-81ca-eec5f659399a" target="_blank">AP CompGov class: FT readings</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/db2b6247-6ef6-4e75-bcce-3855a9e87251" target="_blank">Business class</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/77a544ea-8e64-4502-9105-fd3e650b346c" target="_blank">Philosophy class</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4ff6fe77-c284-4e3e-a2cd-ae1e8a93b6e5" target="_blank">IB economics class: resources for study</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/238b2e06-025f-45de-a842-d1942629f6b8" target="_blank">IB DP Theory of knowledge class</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fc46e05a-2aa1-4593-a582-304073a8acd7" target="_blank">IB Geography class</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a149aacc-1303-403f-85b0-898b7c3c0282" target="_blank">US High School Economics class: Ozempic is transforming your gym</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f7f0d2f9-06c1-4055-9ccd-eed59f73ff84" target="_blank">Economic impact of growing gig economy</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/98dec3ea-c6ea-4892-8c7e-aeccb126649f" target="_blank">What politicians can deliver for the next generation</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2ecc3579-98a9-4218-a9b4-94e277866db8" target="_blank">How to tackle the risks of climate change</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/324e313c-f6b6-46a2-9c93-3164bb22b98c" target="_blank">Time to climb the big tech beanstalk</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4d7d968d-8d2d-4a3f-a168-a9dd18f8eac5" target="_blank">AI for Schools</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f36c2435-a98d-4e1d-b80b-01dec94323e5" target="_blank">How to choose a rewarding career</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/85199c02-f267-4db0-8673-6263fc488262" target="_blank">Climate Change for Schools</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c7bb24c9-964d-479f-ba24-03a2b2df6e85" target="_blank">Charts that work: FT visual vocabulary guide</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f2a219c0-aa95-4af7-aa00-5439729d26a1" target="_blank">Best of the FT: student picks</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fb1b22c3-61ec-4bd0-8411-ecc4f2d677ff" target="_blank">How to write a top-notch CV</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/68fe3fa8-0445-467c-b948-fc9a2553be66" target="_blank">How to succeed at interviews</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2993bf07-2c42-4b2c-b38b-88ce313efb5c" target="_blank">How to present like a professional</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e9884cee-bb85-4fae-9ae9-7d3edf26c35d" target="_blank">Draw your own chart: test your climate change knowledge</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ef296bd4-30f0-4d67-a585-66b107c2673a" target="_blank">What is the new Northern Ireland deal and how will it work? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f4e4ffb0-48d4-450f-bc21-a55bf9a361e9" target="_blank">The ‘Axis of Resistance’ pushing US to ramp up Middle East defences</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/42bbe534-8a0d-4ba8-9cc6-f84936d87196" target="_blank">The Israel-Hamas war — in maps and charts</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4351d5b0-0888-4b47-9368-6bc4dfbccbf5" target="_blank">Tracking Ukraine’s battle against Russia in maps and charts</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/572b0698-b79f-45d6-b03d-bfe41640857c" target="_blank">Who are the candidates vying to be Trump’s running mate?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d699cdeb-068e-4d92-b18b-1584d55bf3aa" target="_blank">How new rules could influence the 2024 UK general election</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f29c3ab1-c559-4f45-9d72-61736a40b032" target="_blank">What went wrong with Boeing’s 737 Max jets?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c617f52a-b46a-4581-8b66-8d92f672f77c" target="_blank">Climate change A to Z: latest - NCQG</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a55c6ce8-e72b-4f66-bca1-7e42bf3cef4f" target="_blank">Politics class: Thousands of farmers protest in London against tax changes</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/538a4a1b-51a5-4465-bab0-d7062474bc7e" target="_blank">US High School Economics class: AI productivity will be as profound as Adam Smith’s pin factory</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4b226471-419d-4a62-9933-18113a086d6e" target="_blank">US High School Economics class: US seeks Google divestitures including Chrome sale in search monopoly case</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/01b98847-98f1-4b5a-8051-c0df506b5f76" target="_blank">US High School Economics class: Why Vietnam risks ending up a big loser from Donald Trump’s tariffs</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/60262647-5242-49c6-bd71-e59563194afb" target="_blank">US High School Economics class: Global food prices reach highest level in 18 months</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b1722e66-ccaa-4813-a08f-70b3c295ca35" target="_blank">Economics class: UK economy stalls in third quarter</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/89d4cc17-35b1-49fb-bf00-ce5801df28e1" target="_blank">Geography class: Migration to rich countries hits record high in 2023</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fd62d221-ead2-4557-8ba4-882233c86371" target="_blank">Geography class. Francis Fukuyama: what Trump unleashed means for America</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0c7c4187-f6d1-4831-9ab8-3eaa92e5324d" target="_blank">Politics class: Will a Republican Congress give Donald Trump everything he wants?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8aeef922-f007-4ec8-bf37-a6ee645e1b57" target="_blank">Business class: Greggs shares fall as analysts predict near-£100mn Budget hit</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cf0463cb-2778-4a88-8ae3-9827da8eab15" target="_blank">Politics class: Trump redraws the political map of America</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/affd2a8e-f129-4b65-8bdf-3fac8a835ec4" target="_blank">IB Geography class: Spain’s deadly floods</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3948f50c-8692-4950-8cee-c31f5245af97" target="_blank">US High School Economics class: Australia to ban ‘dodgy’ dynamic pricing after Green Day furore</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/aa433fd3-7844-4254-85fe-6970be6532a9" target="_blank">Psychology class: Teenage social media use strongly linked to anxiety and depression</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e593e28f-0054-4fbc-b892-71525d19a5ff" target="_blank">Economics class. Budget special: How will the UK secure growth?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/874c7db2-9720-4bd7-8ca0-f9c460bb45a6" target="_blank">Politics class: Goodbye to low-tax Britain</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/360b68c7-a94b-452a-837f-df0e4d83ed62" target="_blank">US High School Economics class: Elon Musk unveils Tesla’s ‘Cybercab’ robotaxis</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ba50c624-d8e8-4034-b584-cc86012ea5b3" target="_blank">IB Geography class. ‘We’re running out of time’: UN warns of 3.1C temperature rise</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6a7c72f1-c4f7-4b1f-8c7e-9d7c98be4881" target="_blank">US High School Economics class: Cuba plunged into crisis by long power blackouts</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d591a72a-1d4e-4c65-b7aa-18ee3d5e147a" target="_blank">Psychology class: The science of falling in love</a></li>
 									</ol>			
 		</div>
 				<div id="Fund Management" class="tabcontent">
@@ -1096,36 +1195,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fa118345-987a-43b3-8d0c-839acd4f0a8c" target="_blank">China’s solar stranglehold and Taiwan’s AI aims</a></li>
 									</ol>			
 		</div>
-				<div id="Health" class="tabcontent">
-			<h2>Health</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f428e4ff-4dd9-4613-8485-dfc77fa154ec" target="_blank">Hospitals urged to check staff use of WhatsApp to ensure patient safety</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bec322d1-0d73-4903-8b41-5e6d5d9a358a" target="_blank">Covid lockdown sceptic is frontrunner to lead Trump health agency</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3b4299fc-84cd-4f48-90d1-bbd1a811e07e" target="_blank">COP29 struggles to break climate finance deadlock</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/462859ef-4f00-4b15-a53c-482e89f0004f" target="_blank">Ask Shrimsley: what’s it like not being on Ozempic?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4dc9a14a-8d65-4718-a899-912780cbe220" target="_blank">‘Google Maps’ project for cells reveals their role in spread of disease</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/374a5e20-eeb0-452b-9a8e-998e92af2e00" target="_blank">Johnson &amp; Johnson threatened with legal action in UK over talcum powder    </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3226f9d2-6b7a-4441-a9b9-14e0485ffe97" target="_blank">The new Republican war on science</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8871aecd-3e52-4f1b-bd5e-2527352ac10e" target="_blank">Best books of 2024: Sport, Health and Wellness</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/55631ba2-6f31-4a68-86b7-120811ad471f" target="_blank">Huel profits surge as meal replacement maker broadens fan base</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9d11fc71-6604-4924-a817-fa792ca0534d" target="_blank">Novo Nordisk readies trial results for next-generation weight-loss drug</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e3a79923-662b-49cb-8dc2-8a7aa9d9445c" target="_blank">HTSI editor’s letter: in praise of the outlier</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/72f0cb12-3753-42a9-aba4-7b3fb596e1cd" target="_blank">EU judges grill von der Leyen’s lawyers over missing text messages</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/04465c09-8100-4cb9-a604-172cf65edf5f" target="_blank">Trump picks Robert Kennedy Jr to run US health department</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8f7615a8-8ae0-427f-b958-fd7d6162ec2e" target="_blank">The Big Question: should smartphones be banned in schools?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/40d098ed-129a-4116-83a1-7941c58bd9cf" target="_blank">Diabetics left without treatment as global rate of disease doubles</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3bae5539-1a19-44e7-85e5-04c3a22065ef" target="_blank">Take the plunge: where to soak, steam and sauna in NYC</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/950275ee-9481-40bc-8ccd-a156f1ce33bc" target="_blank">So long, tennis! How padel took over the world</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6e70f7bd-e311-41df-94fe-7a5575493ae6" target="_blank">South Korea starts to raise game on workplace mental health</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/98b1804d-4b6c-4c56-84f7-e0d2dd5454cb" target="_blank">Gene screening can cut early disease deaths by 25%, study shows</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0dc04f38-249e-4ae0-af96-62e35e813259" target="_blank">Why does the NHS have a productivity problem?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0d6188d8-9238-4276-92b1-33b65ac64577" target="_blank">TeleTracking proves that efficiency is the best medicine</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f7cc2f1a-a0b2-40d4-95f3-483d71f1a993" target="_blank">How companies can deal with in-work sickness</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9b928dc8-c873-4132-8cf8-916cc061a283" target="_blank">Should smartphones be banned in schools? </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/68e07256-4b8c-4e12-a96e-8ad646d6a7fb" target="_blank">Is NAD your best shot at longevity?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1c1e27a2-e026-445e-81fc-b0e31dff016c" target="_blank">UK assisted dying bill offers ‘strictest safeguards’ say supporters</a></li>
-									</ol>			
-		</div>
 				<div id="HTSI" class="tabcontent">
 			<h2>HTSI</h2>	
 				<ol>
@@ -1168,8 +1237,8 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/73e40e07-8a8e-41fe-b881-db03c905d58d" target="_blank">24 silver buys to shine in</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/94d8b67a-5728-4a0e-85f7-b2970fec68b7" target="_blank">Sally Clarke’s Kensington Thanksgiving</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/880af47f-4b20-4753-9b38-24b1bb97b849" target="_blank">Fin and Lorcan Spiteri’s takeaway-fuelled Perudo party</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fcbac0ab-9170-4328-9c3c-44fbadf612cf" target="_blank">Yola Jimenez’s Michelin-starred sobremesa</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5e2da0a2-cce7-49e5-914c-132bf4ea46b8" target="_blank">Phyllis Ny pays tribute to the African hall party</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fcbac0ab-9170-4328-9c3c-44fbadf612cf" target="_blank">Yola Jimenez’s Michelin-starred sobremesa</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2b36bfbf-5ca1-4d0a-9f51-b248074d8da6" target="_blank">Alice Moireau serves a colour-coded French country feast</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/eebaf56e-0fc7-4398-ab83-6ac82c858123" target="_blank">Is this toy gold Aston Martin the ultimate stocking filler?</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c02144c4-6888-4681-a7a8-d304b5462b53" target="_blank">Venice’s velvet-slipper mecca </a></li>
@@ -1195,33 +1264,34 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fd438465-1b92-4075-ac79-e462497c8136" target="_blank">Paulina Olowska – the ‘Slavic goddess’ of Rabka </a></li>
 									</ol>			
 		</div>
-				<div id="Industrials" class="tabcontent">
-			<h2>Industrials</h2>	
+				<div id="Investments" class="tabcontent">
+			<h2>Investments</h2>	
 				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e42d5e3e-30ff-4698-8348-d0e6731f2271" target="_blank">Western miner Eramet sees no profits in nickel without Chinese partners</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/631f4b95-ad8b-4e9a-bedc-9d697c5dd00f" target="_blank">Buyout shops use Trump rally to cut borrowing costs and fund dividends</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/22df8cf6-d224-4ce8-8d73-a5e3f995fc2c" target="_blank">Goldman Sachs takes $900mn hit on Northvolt investment</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4d19331-bcee-48a0-836e-8092d4d94d5b" target="_blank">Thales denies allegations by UK and French agencies over suspected bribery</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/09938004-21b9-4750-8fa2-9ed15c566d4e" target="_blank">‘There was so much promise’: How Northvolt tumbled into bankruptcy</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e164df19-54e2-48d8-b07c-50687813bf56" target="_blank">Jaguar boss defends ‘bold’ rebranding after backlash over video</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/773f143b-ea31-42fd-ba4d-e4b20f4050c3" target="_blank">Northvolt chief warns of faltering green transition after battery maker’s bankruptcy</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ce35013b-8225-4132-92c3-ca4f87737a2f" target="_blank">Britain should not gamble with its car industry again</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ae4b5261-91ff-4b41-aa27-0ae4b9791b5a" target="_blank">EU shift to electric cars still riddled with obstacles</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/47b1084f-a423-4c21-bad6-3d666428f5d4" target="_blank">Battery start-up Northvolt files for bankruptcy protection in US</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0d91eb14-5e51-48e3-99f9-cb2ab9df14ec" target="_blank">Volkswagen workers in Germany prepare to strike within weeks</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/37719992-c24c-4ffe-aee5-d0d63a305fc9" target="_blank">Royal Mail owner writes down value of business by £134mn due to tax rise</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/805c7b54-8ff5-4840-b90b-ff5fcb2e0ae1" target="_blank">UK ministers resist car industry pressure to ease fines on EV sales targets</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5dd46a54-916a-4f84-9a42-59c07c4da3ed" target="_blank">UK cuts fines for boilermakers in climbdown on heat pump sales</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1bdbb534-a90d-4852-96ce-8213f05d3eca" target="_blank">UK military to scrap older warships and helicopters in £500mn savings drive </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0df4cea9-a2e4-4f29-96d8-8d342825b4f2" target="_blank">Ford to cut 4,000 jobs in Europe</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/88148539-a7de-463c-8d99-933cb2e11d51" target="_blank">Santander sets aside £295mn to cover costs over car finance ruling</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ec09bcff-3771-4679-b0d0-4ec7062b7072" target="_blank">The enriched uranium market is all at sea</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/86a649a3-564e-4aa5-b1df-07ee7c4a3952" target="_blank">SpaceX abandons attempt to catch Starship booster as Trump watches</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3be36ba8-cd8e-4472-83d6-24713acfeeb9" target="_blank">Head of Volkswagen’s North American division steps down</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1bf59378-a0d2-43df-96c4-bebe1811ad63" target="_blank">Iran discusses capping stocks of highly enriched uranium</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b6a5e923-3eb2-4f8a-9b4f-c24999cdfa8c" target="_blank">The global race to break China’s grip on graphite</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ebcb12aa-1899-4296-a4d7-c7e5d984c946" target="_blank">Thyssenkrupp in €1bn writedown of steel business as demand slumps</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/48ad06d7-8629-494d-bfe5-f4f11ab57630" target="_blank">Asian arms makers lead defence stock rally in bet on global rearmament</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/84110adc-5087-4921-ad08-49baba331fbe" target="_blank">Strong dollar set to hit emerging market bonds, warn investors</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c8dbe2cc-c49e-4f9d-9898-4ac916b3b591" target="_blank">Directors’ Deals: Hedge fund boss increases Asos stake</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/75ba3055-625c-4cb5-894b-0696a38f5e79" target="_blank">Latest Isa rates</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7d31dd99-660e-4770-b3dc-f1c67fad99fd" target="_blank">Stockpickers: Companies can bounce back stronger from adversity</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7fed517d-0c66-4f46-8cf9-e306cd536984" target="_blank">Tax rises drive surge in venture capital trust investment</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6d04f6ba-6a48-41aa-8a21-52bbba31de3b" target="_blank">Thrive Capital: the real all-in VC fund</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/652e3689-dfb3-453a-896d-1106f50f9420" target="_blank">The ‘linked benefits’ of index investing</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/36dc6603-0f85-4e96-b15f-e38d79ada6fb" target="_blank">Why I’m sticking to my guns with my portfolio</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/91f84874-cc05-4937-8878-0f64723879c9" target="_blank">How is private credit weathering its first big rate hiking cycle?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/44c4504c-8d79-4b09-bf72-b04cf8082736" target="_blank">Thrive Capital: the venture firm staking billions on a few big bets</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c54864e1-ea6c-49b5-90e0-2e1530f576da" target="_blank">Grant Thornton UK picks private equity over US merger</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ceb989be-f7ef-4b52-8aab-b70f34e9db2a" target="_blank">Unilever shelves planned sale of its ice cream business to private equity  </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/37563989-0e46-4fce-a927-dd8991a120a2" target="_blank">Investors need to know when to put down the phone</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4887d9bf-d1cc-4109-972f-7bc0c427cd64" target="_blank">‘Trump bump’ makes Paul Taubman Wall Street’s newest billionaire</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ae6d7cdd-9742-402e-ae66-429eefc8e7f3" target="_blank">BlackRock and Amundi zero in on concentrated ‘mega-cap’ ETFs</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fe76946b-a5fc-4f1b-854f-240757835bdd" target="_blank">Bridgewater + SSGA = ETF heaven</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1d2158a5-2f16-4998-a643-96eb2897f5cb" target="_blank">How to deal with noisy markets</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/56adeab0-2957-481b-81e4-9a9ac8181c6a" target="_blank">Corporate insiders cash in on post-election US stock market surge</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c30585d8-40d1-4b1a-b62b-32511214fa30" target="_blank">Private equity buyers snap up two more US accounting firms</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0f361de8-63c1-4855-9f21-b30bb64355df" target="_blank">Outgoing Manulife CEO says more scrutiny of private equity deals ‘welcome’</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f0516b4b-bdc3-4752-84f6-ee1dc9a7baff" target="_blank">Vanguard says shareholders can vote for profits over ESG issues</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0059a560-9784-4706-b7ab-ea640daef361" target="_blank">Inside the world of activist short sellers</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/66bc33c8-d7ad-4b2d-9c41-f256237e9f8e" target="_blank">Janus Henderson files to launch collateralised loan ETF in Europe</a></li>
 									</ol>			
 		</div>
 				<div id="Letters" class="tabcontent">
@@ -1301,6 +1371,7 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c1031b6-2917-4e0f-904a-45f6cd20059e" target="_blank">UN climate summit’s $300bn deal slammed as ‘stage-managed’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca809d14-5fb1-4586-b1ae-bf8ccae7d300" target="_blank">Ex-Barclays chief John Varley pulled back into fight to clear bank’s name</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/18761355-0470-43cb-8fe5-312ede861c8c" target="_blank">How long will Trump’s honeymoon with the stock market last?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/631f4b95-ad8b-4e9a-bedc-9d697c5dd00f" target="_blank">Buyout shops use Trump rally to cut borrowing costs and fund dividends</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e42d5e3e-30ff-4698-8348-d0e6731f2271" target="_blank">Western miner Eramet sees no profits in nickel without Chinese partners</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cbc6cbb8-a91c-48b5-922e-ca5246956b2b" target="_blank">German bond investors bet on an end to Berlin’s ‘debt brake’ </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ecf5bb79-60e7-4778-be5d-24ae92908594" target="_blank">Bitcoin and bananas add a new twist to conspicuous consumption</a></li>
@@ -1322,7 +1393,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/36dc6603-0f85-4e96-b15f-e38d79ada6fb" target="_blank">Why I’m sticking to my guns with my portfolio</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c61e57aa-3f63-40fa-853a-cfc0eeffc7b0" target="_blank">News updates from November 21: Putin says Moscow fired new hypersonic missile at Ukraine; Gaetz withdraws as attorney-general nominee </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d25fa5db-327e-4e52-8c2e-25a7942081c8" target="_blank">Looking at 2025 </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f4eb6306-a310-4ef6-9bac-c26587db2cf9" target="_blank">Gary Gensler to step down as SEC chair in January</a></li>
 									</ol>			
 		</div>
 				<div id="Markets Home" class="tabcontent">
@@ -1342,6 +1412,7 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8c1031b6-2917-4e0f-904a-45f6cd20059e" target="_blank">UN climate summit’s $300bn deal slammed as ‘stage-managed’</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca809d14-5fb1-4586-b1ae-bf8ccae7d300" target="_blank">Ex-Barclays chief John Varley pulled back into fight to clear bank’s name</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/18761355-0470-43cb-8fe5-312ede861c8c" target="_blank">How long will Trump’s honeymoon with the stock market last?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/631f4b95-ad8b-4e9a-bedc-9d697c5dd00f" target="_blank">Buyout shops use Trump rally to cut borrowing costs and fund dividends</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e42d5e3e-30ff-4698-8348-d0e6731f2271" target="_blank">Western miner Eramet sees no profits in nickel without Chinese partners</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cbc6cbb8-a91c-48b5-922e-ca5246956b2b" target="_blank">German bond investors bet on an end to Berlin’s ‘debt brake’ </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ecf5bb79-60e7-4778-be5d-24ae92908594" target="_blank">Bitcoin and bananas add a new twist to conspicuous consumption</a></li>
@@ -1363,7 +1434,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/36dc6603-0f85-4e96-b15f-e38d79ada6fb" target="_blank">Why I’m sticking to my guns with my portfolio</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c61e57aa-3f63-40fa-853a-cfc0eeffc7b0" target="_blank">News updates from November 21: Putin says Moscow fired new hypersonic missile at Ukraine; Gaetz withdraws as attorney-general nominee </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d25fa5db-327e-4e52-8c2e-25a7942081c8" target="_blank">Looking at 2025 </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f4eb6306-a310-4ef6-9bac-c26587db2cf9" target="_blank">Gary Gensler to step down as SEC chair in January</a></li>
 									</ol>			
 		</div>
 				<div id="Media" class="tabcontent">
@@ -1468,6 +1538,36 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7974a3f4-5926-47df-a598-0bfe32df9fdf" target="_blank">State Street is making a grab for alternatives</a></li>
 									</ol>			
 		</div>
+				<div id="Next Act" class="tabcontent">
+			<h2>Next Act</h2>	
+				<ol>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/399fa3ed-2e32-42d5-ab32-95616b08f311" target="_blank">Quick fixes to lower your inheritance tax liability</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5b2f2b1a-fb58-4709-b776-d00d239775e7" target="_blank">Do I need inheritance tax insurance? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/159fb104-734f-4785-99d1-c6d3a77b593f" target="_blank">Can I purchase a property anonymously?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/96e97bf9-e62d-4830-9038-450d29012f55" target="_blank">Can I make my out-of-work ex-husband pay maintenance? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1c1f44a5-9cd9-4b29-8afa-6415ab439608" target="_blank">The couples’ conundrum: joint or separate finances? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/45b4530d-a3db-4c9c-a334-18c0f5dc2fb5" target="_blank">Ben Pentreath: my volte face from committed renter to new homeowner</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d3fa1844-30fd-4258-80f4-89f022899ed1" target="_blank">Schroders calls for early pension access for first-time buyers</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/070d3416-1266-45e2-8160-e6bb55672117" target="_blank">The risks of giving the family home to your children early</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ba89710f-3c2d-4a62-9737-79ef72b96fc8" target="_blank">What investments can I use to limit my inheritance tax liability?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5a5a8bf9-fa31-4bb4-a4db-d7cc9ae40cbf" target="_blank">How can women navigate later life? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2c8224bc-ced4-419e-9d83-8aa87fe3e495" target="_blank">The cheat’s guide to looking effortless</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bc61affb-7038-4873-95e9-01c431be22c4" target="_blank">Ask a stylist: how to dress for a festival in your forties</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c33b12f1-4a32-4743-b70a-ca584b51e658" target="_blank">Should I make my husband an employee?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7219b15b-c614-4a6b-9b5b-6405dc689cbf" target="_blank">What Frank Lloyd Wright tells us about late bloomers</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1588410e-6e84-49da-a528-d4b9d37a3b5f" target="_blank">How easy is it to change my divorce lawyer?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/baf5cc02-5bc0-4d5e-acf2-7d406c55a447" target="_blank">The writers who put their money where their mouth is</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e537b9f8-078e-4fbf-b16a-e6580ea3f9d3" target="_blank">Can you afford to retire early? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bb0a8eb7-227a-400a-919a-ab7dd2f20f0b" target="_blank">Science is closing in on the frailties of old age</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/95e21f2a-0d55-48ed-941e-2dde2043e380" target="_blank">What should I consider when donating to charity?</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/92d0ade0-1027-483f-9e2a-d22af5430cdd" target="_blank">What income am I entitled to after my divorce? </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/22f3da76-931b-4a29-a4ee-5569f2b3698c" target="_blank">Larry Fink’s retirement warning highlights fight over ‘hardest problem in finance’</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e7047c1e-feee-440b-b752-e92b3a7ed42a" target="_blank">Need to Know: A well-written will makes life easier for your family </a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5f73012f-5ee3-445a-884f-009c11e7d2af" target="_blank">Whose house is it, anyway? The growing problem of inheritance</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0beeda13-405b-43dc-b4fb-c8651b91e781" target="_blank">Grannies are acting as unpaid nannies</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b68f8641-36e4-43d4-9949-ca39ec266088" target="_blank">Can my husband get away with not paying maintenance?</a></li>
+									</ol>			
+		</div>
 				<div id="Obituaries" class="tabcontent">
 			<h2>Obituaries</h2>	
 				<ol>
@@ -1520,7 +1620,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ded9a634-64f6-42a7-b081-40448b9e490a" target="_blank">The age of the partial outsider</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5d1d1137-c0ae-476e-941e-6811d59cea28" target="_blank">Confessions of a farmer’s daughter</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/73fa6fd9-6f34-4e59-8f0f-04de3be7387a" target="_blank">The delusions behind a bitcoin strategic reserve </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/92377da7-43ef-4ef5-a4b8-ead502f7e18e" target="_blank">Trump may be right about Ukraine’s endgame </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b3b0ef60-ee1a-4c0b-a0a9-2db1da80d3f4" target="_blank">Climate COPs and the art of the deal </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5283f0f0-2eb7-44e2-b477-a9999400065c" target="_blank">What the ‘manopause’ tells us about the gender gap </a></li>
@@ -1567,7 +1666,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ded9a634-64f6-42a7-b081-40448b9e490a" target="_blank">The age of the partial outsider</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5d1d1137-c0ae-476e-941e-6811d59cea28" target="_blank">Confessions of a farmer’s daughter</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/73fa6fd9-6f34-4e59-8f0f-04de3be7387a" target="_blank">The delusions behind a bitcoin strategic reserve </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/92377da7-43ef-4ef5-a4b8-ead502f7e18e" target="_blank">Trump may be right about Ukraine’s endgame </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b3b0ef60-ee1a-4c0b-a0a9-2db1da80d3f4" target="_blank">Climate COPs and the art of the deal </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5283f0f0-2eb7-44e2-b477-a9999400065c" target="_blank">What the ‘manopause’ tells us about the gender gap </a></li>
@@ -1590,36 +1688,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca1058b2-a201-40a5-9cf0-014e1cfd4705" target="_blank">Google vs the DoJ fight will be decided by a political call</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4538d97f-8cea-4e53-9006-f68a7411254f" target="_blank">We must redefine the terms of the devolution revolution</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/90a1f661-b6ef-46fc-897d-ebb3ff3bc045" target="_blank">Google browser break-up is an answer in search of a question</a></li>
-									</ol>			
-		</div>
-				<div id="Pensions" class="tabcontent">
-			<h2>Pensions</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/399fa3ed-2e32-42d5-ab32-95616b08f311" target="_blank">Quick fixes to lower your inheritance tax liability</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b92011cf-5c81-494a-a999-baba0a5a5fb7" target="_blank">Government could force pension funds to invest more in UK assets</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b515d06b-85d5-4d26-b02c-106d5dccb3eb" target="_blank">Rachel Reeves’ plans to reform Britain’s pensions industry</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/18775127-4565-414b-a32b-e8f8a06c2d60" target="_blank">Reeves must go bigger and bolder on local pensions reform</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5b2f2b1a-fb58-4709-b776-d00d239775e7" target="_blank">Do I need inheritance tax insurance? </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5577f000-a3c6-47b7-802b-90f9d0e915e2" target="_blank">Make an appointment to hear our new ‘Investment Clinic’ podcast</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1c647a40-2373-4bd2-b069-ef868ce1a242" target="_blank">Reeves seeks scale to solve UK pension investment problem</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4219f62-7d50-426c-ba0c-078ba3212073" target="_blank">Britain’s bold plan to create super funds</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0b5a0e5f-3474-49bf-8b6a-ee67e7df44c7" target="_blank">Reeves to force council pensions to consolidate into 8 ‘megafunds’</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9a9c145d-1aa6-4bcf-b487-f4a6e9d1db25" target="_blank">Could TikTok, apps and Gemma Collins boost women’s pensions?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6bc539da-8c0d-4ebc-8417-80a7e002fc81" target="_blank">The race to build a £354bn British pensions behemoth</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a7a4ee6e-835f-4e0c-9065-56bea4c41d28" target="_blank">Reeves plans to use £350bn council pension pot to boost UK economy </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a645da27-f1f1-4138-920b-0fcfac901bf7" target="_blank">UK employers eye staff pension schemes to cut national insurance bills</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6870fc5c-2f20-4dea-bcbb-c95f8f3ff378" target="_blank">New Lord Mayor to push pension funds to invest more in London-listed companies</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d4ed51b6-5099-4a43-96c2-a787a44cf601" target="_blank">The great post-Budget pensions rethink</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/69af844a-8f24-485e-8516-f4877f5b92a3" target="_blank">Barnier touches nerve with plan to trim French pensions</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/893c1f59-fc77-4d5f-8a79-2a247cad1fad" target="_blank">Budget Q&amp;A: Readers’ questions answered</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6864f60e-ea8e-490f-801f-a07e9a1060dc" target="_blank">Autumn Budget 2024: where will you feel the pinch?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/03d3850b-af84-4f59-8678-fdb230b4b789" target="_blank">UK savings plans overhauled with planned pension tax changes</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/42edd43d-3b8a-483d-859b-5c9579e3ed97" target="_blank">Experts answer your Budget questions</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/87df1ddd-8e7f-4d4a-b27d-0c75a19d4fa6" target="_blank">Closure of UK inheritance tax ‘loophole’ to penalise estates of wealthy pensioners</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0f1fb161-22ea-4aca-b43e-3efdbaddf3af" target="_blank">Inheritance tax reforms to hit business owners and farmers </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/81eda402-2157-41db-ae70-7934f3aa0b94" target="_blank">Working people will pay the price of higher taxes for employers </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/19132396-c643-4066-a68e-c77f32398f2f" target="_blank">Will investors live to regret their pre-Budget actions?</a></li>
 									</ol>			
 		</div>
 				<div id="Personal Finance" class="tabcontent">
@@ -1691,36 +1759,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7d9b9ea5-7d6a-445b-ab72-7399b68397a7" target="_blank">If you’re going to multitask, do it mindfully</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6c60fb4b-0781-4da4-8652-651e8ad14c21" target="_blank">‘We’re eating ourselves’: big money turns football into legal battlefield</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/02844301-7b7b-4116-9483-c78924162ebe" target="_blank">Tony Blair Institute falls to $2.2mn loss as staff costs mount</a></li>
-									</ol>			
-		</div>
-				<div id="Recruitment" class="tabcontent">
-			<h2>Recruitment</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2c2558fe-fc6e-4a92-b54a-c78aede7336b" target="_blank">No degree, no problem: US employers look beyond college credentials </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/249d0f97-768e-4807-917c-76c84ebdf97c" target="_blank">Recruiters urge candidates to use AI to apply for jobs</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9cf58a76-5245-4cdf-9449-239e90077eb5" target="_blank">Employers look to AI tools to plug skills gap and retain staff</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9389ce06-6b06-4642-881b-9ea5c4cfb337" target="_blank">From intern to CEO: does it pay to be a company lifer?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/96c3efb5-c921-4684-b5ec-693872d660a9" target="_blank">Non-exec roles offer a launch pad to boardroom gender parity</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/279bf0b0-97ef-4186-9156-6f0f4ae697ed" target="_blank">AI tools to help job-hunters get past the recruiters’ bots</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/99435752-ac15-44de-8dd6-79467c277611" target="_blank">UK graduates face tough jobs market as AI transforms recruitment</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6d31bb16-9149-4da4-8a88-133369eef58d" target="_blank">This UK recruitment downturn looks set to last</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3350e093-ca45-4aaf-9f52-639fead3a0bc" target="_blank">The new recruitment arms race </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cfb67a47-c195-4262-90e5-9de12174be9e" target="_blank">The trends shaping graduate recruitment</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1429fcb2-e0ef-4e47-b2b8-8bd225ac2fe2" target="_blank">Blanked or rejected: is finding a job harder than ever?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c196e413-4101-4133-afb5-87dcc10781bc" target="_blank">Law firms forge new career paths in bid to tackle social mobility</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/facac60f-dbe7-4889-b76a-7ec1dc1f2e2c" target="_blank">How AI is generating a ‘sea of sameness’ in job applications</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f814f9f4-2312-431a-a4be-75f433fd6fab" target="_blank">The allure of the loud know-nothing</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a109d05e-9150-4220-911e-2b11761d24a8" target="_blank">‘Everybody loves free tickets’: how seasonal leisure businesses attract staff</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/30a032dd-bdaa-4aee-bc51-754867abbde0" target="_blank">Jobhunters flood recruiters with AI-generated CVs</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fa064705-a216-418f-a493-5647432ac063" target="_blank">Is the UK too reliant on overseas hires for tech and engineering jobs?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9fe340ea-91ec-4c8b-80ec-26bde3c94e99" target="_blank">Can Kelly Ortberg turn Boeing around?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8b8f651a-8746-4296-8c32-8742c2c617d3" target="_blank">Bosses regain the upper hand in hiring</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d510d5c4-73cf-4dd6-bdd9-415aad5f4774" target="_blank">PageGroup warns on profits amid continued hiring slowdown </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f62d184d-cd19-46bf-9627-ebe0bb792a35" target="_blank">Graduate jobseekers navigate AI effect on gender equality</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d76a953d-685a-434a-8acb-36589fac2478" target="_blank">Employers look to rip the ‘paper ceiling’ for non-graduates</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/100cf63a-4138-4e16-8958-02154c88b60e" target="_blank">AI for Schools: Looking to the jobs of the future</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6534aa07-f1a6-4feb-b8e5-1ed3444bacdb" target="_blank">Paying more is ‘not viable’: new visa rules hit foreign graduate recruitment </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/71c4aea2-ed9d-4adc-8ff8-62fcb7ed90a2" target="_blank">John Lewis seeks to ease job interview nerves by revealing questions online</a></li>
 									</ol>			
 		</div>
 				<div id="Semiconductors" class="tabcontent">
@@ -1847,99 +1885,10 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1e54abab-346c-4e65-bd24-56db038233d1" target="_blank">Hospitality bosses warn Reeves’ UK tax increases will lead to ‘drastic’ job cuts</a></li>
 									</ol>			
 		</div>
-				<div id="Tech" class="tabcontent">
-			<h2>Tech</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e1b52147-c171-4902-8bce-204ba0905912" target="_blank">Meta loses ground to Bluesky as users abandon Elon Musk’s X </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/01da4ed8-0371-44b0-a07d-63e07f32939e" target="_blank">Amazon pumps another $4bn into AI start-up Anthropic</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e56329e9-2cf9-4a37-b6c0-f0e0e3695e18" target="_blank">Microsoft urges Trump to ‘push harder’ against Russia and China hacks</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/58b7e26e-5af6-4cef-8999-a520090bebd4" target="_blank">Early Revolut investors cash out at least $300mn in share sale</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9efae6c4-c039-49b9-bbe6-dcac575cb4a5" target="_blank">NHS take-up of Palantir data platform rises despite hurdles </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b3a4be64-136d-48b1-937e-76110090f29d" target="_blank">Temu owner PDD misses sales estimates amid China slowdown</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c01c74e4-eda0-4752-ac51-cf2c694ab32f" target="_blank">Thomas Kurtz, mathematician, 1928-2024</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ac17ef21-7a9d-4366-9b9e-343489785f9b" target="_blank">Samsung’s princeling heir Lee Jae-yong grapples with corporate crisis</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a3a329ee-8c9a-4abd-add2-eb7d56f4c108" target="_blank">What Trump means for Silicon Valley</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/54db3932-0b9e-4908-8214-5923f2942dca" target="_blank">Will Musk and Trump fall out?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/209a43f7-b00f-4e25-9729-1e219d0e3aa8" target="_blank">Who wants to buy Chrome?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/41bfacb8-4d1e-4f25-bc60-75bf557f1f21" target="_blank">Wall Street frenzy creates $11bn debt market for AI groups buying Nvidia chips </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d207c4a9-0e6d-4ece-a44d-abf890316b5a" target="_blank">Who’s who in the Musk ‘A-team’ vying to shape Trump 2.0</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/424eb5f8-efb4-4fc8-b86a-0359f6fac9eb" target="_blank">The mystery of Masayoshi Son, SoftBank’s great disrupter</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/242552a9-4280-46c0-9d61-bcf6ccd14400" target="_blank">Telegram: a crypto firm with a sideline in messaging </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/646ab305-3408-47ca-a59b-57fc73b9ade3" target="_blank">The trouble with deepfakes: a new FT podcast series</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2d6fc319-2165-42fb-8de1-0edf1d765be3" target="_blank">Big Tech’s bid to rewrite the rules on net zero</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e164df19-54e2-48d8-b07c-50687813bf56" target="_blank">Jaguar boss defends ‘bold’ rebranding after backlash over video</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4fdf2681-8955-4276-a731-0acbf04f37cf" target="_blank">Electric Dreams at Tate Modern — when artists embraced the power of technology</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f428e4ff-4dd9-4613-8485-dfc77fa154ec" target="_blank">Hospitals urged to check staff use of WhatsApp to ensure patient safety</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca1058b2-a201-40a5-9cf0-014e1cfd4705" target="_blank">Google vs the DoJ fight will be decided by a political call</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/24c04972-ad17-4c3e-837e-b25668339f6e" target="_blank">US seeks Google divestitures including Chrome sale in search monopoly case</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1465bbdd-62e3-48da-9012-8729263878c7" target="_blank">Nvidia’s revenue nearly doubles as AI chip demand remains strong</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/30510160-88d0-4d5f-9882-b79f131d3ada" target="_blank">Mass X-odus: professionals desert Musk’s network</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/089b24f7-3d2c-49db-ba49-0989291aa094" target="_blank">Energy-hungry Big Tech shrinks from the spotlight at UN climate summit </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fa118345-987a-43b3-8d0c-839acd4f0a8c" target="_blank">China’s solar stranglehold and Taiwan’s AI aims</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d53efd23-7af7-43c9-9680-7a295f3aba78" target="_blank">Australia introduces bill to ban under-16s from social media</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1f076273-c595-4834-b96c-abc72c9e082c" target="_blank">Otter.ai’s Sam Liang: We can unlock valuable data from meetings and conversations  </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6a30c6af-5f41-46d7-bb21-0dcb5bcfdee4" target="_blank">Matt Clifford: the UK tech adviser whose influence has drawn sceptics</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5a1140cc-75a3-4202-a413-e443344a1519" target="_blank">Apple proposes Indonesian factory in bid to reverse iPhone 16 ban</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/74eadcfc-a149-43dc-84d6-f5ac01549577" target="_blank">Nvidia’s dizzying growth is now everyone’s business </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7a7251e1-1938-4a0a-ac10-be576cc99848" target="_blank">Big Brother in aisle 6: shoplifting in US climbs despite new surveillance </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/36791a87-3938-4490-b178-9970d53b80fa" target="_blank">FTX co-founder Wang avoids prison after assisting in Bankman-Fried case</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4974b572-c74c-4843-881f-718a0749845d" target="_blank">Tech has room for the minnows too — as Sage shows</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3cf28736-7255-4675-8e6c-045e5cdd289d" target="_blank">Sage shares surge 19% as UK software group launches buyback</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c917a1e1-60a5-42c5-9158-6199f8a1f9ab" target="_blank">Start-up ProRata.ai valued at $130mn after signing up UK publishers   </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4488d86-c60d-4236-8531-b47b61135478" target="_blank">Klarna’s US listing is a sad reflection of Europe’s failings</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f583fa72-858f-418e-b17c-67cad1f2c10a" target="_blank">Palantir becomes a ‘Trump trade’ as investors bet on higher defence spending</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2dcb13d6-080f-4eb8-a111-77572a04970a" target="_blank">French tech proves hot ticket for festival operators</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/db232c49-0d10-4246-974d-2a2a13238bdc" target="_blank">More than ever, Europe needs growth champions</a></li>
-									</ol>			
-		</div>
-				<div id="Tech Home" class="tabcontent">
-			<h2>Tech Home</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e1b52147-c171-4902-8bce-204ba0905912" target="_blank">Meta loses ground to Bluesky as users abandon Elon Musk’s X </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/01da4ed8-0371-44b0-a07d-63e07f32939e" target="_blank">Amazon pumps another $4bn into AI start-up Anthropic</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e56329e9-2cf9-4a37-b6c0-f0e0e3695e18" target="_blank">Microsoft urges Trump to ‘push harder’ against Russia and China hacks</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/58b7e26e-5af6-4cef-8999-a520090bebd4" target="_blank">Early Revolut investors cash out at least $300mn in share sale</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9efae6c4-c039-49b9-bbe6-dcac575cb4a5" target="_blank">NHS take-up of Palantir data platform rises despite hurdles </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b3a4be64-136d-48b1-937e-76110090f29d" target="_blank">Temu owner PDD misses sales estimates amid China slowdown</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c01c74e4-eda0-4752-ac51-cf2c694ab32f" target="_blank">Thomas Kurtz, mathematician, 1928-2024</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ac17ef21-7a9d-4366-9b9e-343489785f9b" target="_blank">Samsung’s princeling heir Lee Jae-yong grapples with corporate crisis</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a3a329ee-8c9a-4abd-add2-eb7d56f4c108" target="_blank">What Trump means for Silicon Valley</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/54db3932-0b9e-4908-8214-5923f2942dca" target="_blank">Will Musk and Trump fall out?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/209a43f7-b00f-4e25-9729-1e219d0e3aa8" target="_blank">Who wants to buy Chrome?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/41bfacb8-4d1e-4f25-bc60-75bf557f1f21" target="_blank">Wall Street frenzy creates $11bn debt market for AI groups buying Nvidia chips </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d207c4a9-0e6d-4ece-a44d-abf890316b5a" target="_blank">Who’s who in the Musk ‘A-team’ vying to shape Trump 2.0</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/424eb5f8-efb4-4fc8-b86a-0359f6fac9eb" target="_blank">The mystery of Masayoshi Son, SoftBank’s great disrupter</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/242552a9-4280-46c0-9d61-bcf6ccd14400" target="_blank">Telegram: a crypto firm with a sideline in messaging </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/646ab305-3408-47ca-a59b-57fc73b9ade3" target="_blank">The trouble with deepfakes: a new FT podcast series</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2d6fc319-2165-42fb-8de1-0edf1d765be3" target="_blank">Big Tech’s bid to rewrite the rules on net zero</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e164df19-54e2-48d8-b07c-50687813bf56" target="_blank">Jaguar boss defends ‘bold’ rebranding after backlash over video</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4fdf2681-8955-4276-a731-0acbf04f37cf" target="_blank">Electric Dreams at Tate Modern — when artists embraced the power of technology</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f428e4ff-4dd9-4613-8485-dfc77fa154ec" target="_blank">Hospitals urged to check staff use of WhatsApp to ensure patient safety</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca1058b2-a201-40a5-9cf0-014e1cfd4705" target="_blank">Google vs the DoJ fight will be decided by a political call</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/24c04972-ad17-4c3e-837e-b25668339f6e" target="_blank">US seeks Google divestitures including Chrome sale in search monopoly case</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1465bbdd-62e3-48da-9012-8729263878c7" target="_blank">Nvidia’s revenue nearly doubles as AI chip demand remains strong</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/30510160-88d0-4d5f-9882-b79f131d3ada" target="_blank">Mass X-odus: professionals desert Musk’s network</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/089b24f7-3d2c-49db-ba49-0989291aa094" target="_blank">Energy-hungry Big Tech shrinks from the spotlight at UN climate summit </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/fa118345-987a-43b3-8d0c-839acd4f0a8c" target="_blank">China’s solar stranglehold and Taiwan’s AI aims</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/d53efd23-7af7-43c9-9680-7a295f3aba78" target="_blank">Australia introduces bill to ban under-16s from social media</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1f076273-c595-4834-b96c-abc72c9e082c" target="_blank">Otter.ai’s Sam Liang: We can unlock valuable data from meetings and conversations  </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6a30c6af-5f41-46d7-bb21-0dcb5bcfdee4" target="_blank">Matt Clifford: the UK tech adviser whose influence has drawn sceptics</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5a1140cc-75a3-4202-a413-e443344a1519" target="_blank">Apple proposes Indonesian factory in bid to reverse iPhone 16 ban</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/74eadcfc-a149-43dc-84d6-f5ac01549577" target="_blank">Nvidia’s dizzying growth is now everyone’s business </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/7a7251e1-1938-4a0a-ac10-be576cc99848" target="_blank">Big Brother in aisle 6: shoplifting in US climbs despite new surveillance </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/36791a87-3938-4490-b178-9970d53b80fa" target="_blank">FTX co-founder Wang avoids prison after assisting in Bankman-Fried case</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4974b572-c74c-4843-881f-718a0749845d" target="_blank">Tech has room for the minnows too — as Sage shows</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3cf28736-7255-4675-8e6c-045e5cdd289d" target="_blank">Sage shares surge 19% as UK software group launches buyback</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c917a1e1-60a5-42c5-9158-6199f8a1f9ab" target="_blank">Start-up ProRata.ai valued at $130mn after signing up UK publishers   </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4488d86-c60d-4236-8531-b47b61135478" target="_blank">Klarna’s US listing is a sad reflection of Europe’s failings</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f583fa72-858f-418e-b17c-67cad1f2c10a" target="_blank">Palantir becomes a ‘Trump trade’ as investors bet on higher defence spending</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2dcb13d6-080f-4eb8-a111-77572a04970a" target="_blank">French tech proves hot ticket for festival operators</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/db232c49-0d10-4246-974d-2a2a13238bdc" target="_blank">More than ever, Europe needs growth champions</a></li>
-									</ol>			
-		</div>
 				<div id="Tech Sector" class="tabcontent">
 			<h2>Tech Sector</h2>	
 				<ol>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bfb404e8-aa7e-4795-a60c-454a310293cc" target="_blank">Trump’s return sends shivers through the anti-misinformation world</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e1b52147-c171-4902-8bce-204ba0905912" target="_blank">Meta loses ground to Bluesky as users abandon Elon Musk’s X </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c01c74e4-eda0-4752-ac51-cf2c694ab32f" target="_blank">Thomas Kurtz, mathematician, 1928-2024</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ac17ef21-7a9d-4366-9b9e-343489785f9b" target="_blank">Samsung’s princeling heir Lee Jae-yong grapples with corporate crisis</a></li>
@@ -1964,7 +1913,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3cf28736-7255-4675-8e6c-045e5cdd289d" target="_blank">Sage shares surge 19% as UK software group launches buyback</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c917a1e1-60a5-42c5-9158-6199f8a1f9ab" target="_blank">Start-up ProRata.ai valued at $130mn after signing up UK publishers   </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4488d86-c60d-4236-8531-b47b61135478" target="_blank">Klarna’s US listing is a sad reflection of Europe’s failings</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f583fa72-858f-418e-b17c-67cad1f2c10a" target="_blank">Palantir becomes a ‘Trump trade’ as investors bet on higher defence spending</a></li>
 									</ol>			
 		</div>
 				<div id="Telecoms" class="tabcontent">
@@ -2348,10 +2296,10 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3226f9d2-6b7a-4441-a9b9-14e0485ffe97" target="_blank">The new Republican war on science</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1ef2a6ef-a623-484f-9879-8cb3c26f67fb" target="_blank">Inside the bitter fight to become Donald Trump’s Treasury secretary</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/31429c63-70ef-4213-9732-f05ef4422dae" target="_blank">Biden aims to Trump-proof his legacy with policy blitz in final days</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e8d2fa11-e9c3-4509-b922-0a97e540ca1d" target="_blank">The Trump vibe shift was there for all to see</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/182e2ea3-456f-4db8-bb87-38e7880c575a" target="_blank">Top Biden adviser warns of ‘chaos’ if Trump raises tariffs and guts IRA</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cdd51e5c-5815-4ae5-ab32-4d1313dc9302" target="_blank">How Downtown Miami is getting its groove back</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a99b2223-eb3c-4fe8-bb43-576b2b48af76" target="_blank">German gloom deepens as Trump tariff threat rattles exporters </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e8d2fa11-e9c3-4509-b922-0a97e540ca1d" target="_blank">The Trump vibe shift was there for all to see</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bec322d1-0d73-4903-8b41-5e6d5d9a358a" target="_blank">Covid lockdown sceptic is frontrunner to lead Trump health agency</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/97050b29-02bf-4a2c-8629-9d1c8509dc55" target="_blank">Hollywood gives thanks for blockbusters after long lean period</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/75c830f8-0906-4365-88ba-ba7a7fdf0108" target="_blank">No mojitos and no lights: Cuba’s tourism industry fights losing battle</a></li>
@@ -2371,50 +2319,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c98b9d4b-ac76-4931-821c-ddf7a6283180" target="_blank">China ‘willing’ to engage in Trump dialogue as it backs exporters</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ccb4c885-57f3-4008-8359-f4e4fcc24eaa" target="_blank">What’s behind the lesbian pay premium?</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1e255ac2-544f-4764-baf9-f6942a4a1a4c" target="_blank">Poland urges EU to spend more on eastern defences ahead of Trump’s return</a></li>
-									</ol>			
-		</div>
-				<div id="Visual and data journalism" class="tabcontent">
-			<h2>Visual and data journalism</h2>	
-				<ol>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/392e1e79-a8c1-4473-ab51-3267c415b078" target="_blank">How Trump won in maps and charts</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6d489f29-83f2-4d64-b97f-9e25a2dbec24" target="_blank">Israeli strike flattens Beirut building as Lebanon bombardment intensifies</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0be3074d-71b7-4821-82ea-ff1aa71f02a0" target="_blank">England’s universities regulator warns of worsening financial outlook</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6de668c7-64e9-4196-b2c5-9ceca966fe3f" target="_blank">Poorer voters flocked to Trump — and other data points from the election </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/42cd0c17-c7a0-4ff5-af8e-0f1e29829544" target="_blank">Trump redraws the political map of America</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/92b4a83a-c5cf-4354-93e7-645f92e74fbb" target="_blank">The demolitions clearing Israel’s ‘first belt’ in Lebanon</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9acf8ed0-9b32-49cc-99e0-dbcab449ad13" target="_blank">How security failings let a would-be assassin shoot Donald Trump</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/56632685-5306-4d2e-b1b2-58b939207350" target="_blank">German election 2025: Who’s ahead in the polls?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/42bbe534-8a0d-4ba8-9cc6-f84936d87196" target="_blank">The Israel-Hamas war — in maps and charts</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4351d5b0-0888-4b47-9368-6bc4dfbccbf5" target="_blank">Tracking Ukraine’s battle against Russia in maps and charts</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/73a1836d-0faa-4c84-b973-554e2ca3a227" target="_blank">Trump broke the Democrats’ thermostat</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0b0d1c2d-6af5-4f45-8170-5af7f282438a" target="_blank">What is the point of polling?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e8ac09ea-c300-4249-af7d-109003afb893" target="_blank">Democrats join 2024’s graveyard of incumbents</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3ce7ceef-9135-45ab-a4f5-412ee5037da2" target="_blank">Will Trumpism outlast Trump?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e9884cee-bb85-4fae-9ae9-7d3edf26c35d" target="_blank">Draw your own chart: test your climate change knowledge</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0f2dce04-ec78-4aeb-808c-cff5b5135699" target="_blank">Last days of the lonely interstellar spacecraft</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/6ce668bc-4180-4e84-9feb-f25ac0e83f6f" target="_blank">The hunt for a rare nuclear isotope that could redefine cancer care</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a4613e9e-a89d-43a3-9046-f4f373729f36" target="_blank">What do we gain from going back to the Moon? </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/a974f4c1-bb8a-4a1b-9d88-a2cf14be5c6e" target="_blank">Cell therapy offers ‘single shot’ hope to autoimmune disease patients</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/816c4a17-b938-49c2-b2c0-28b1497084de" target="_blank">The race against time to defeat mosquito-borne diseases</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/027a0d94-90f6-4841-94c1-b974ac895adb" target="_blank">Holding back the floods for 40 years: Thames Barrier is due an upgrade</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/c88d1773-ec84-46a2-bb0f-fbaf8889e954" target="_blank">UK nuclear venture aims to realise fusion dream</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/2d43ed21-9f9d-4e90-a18b-ad46f0a4760d" target="_blank">How to make space-based solar power a reality</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/73138e84-701a-4e75-9ca8-7725d0867eb5" target="_blank">Why the EV battery race needs a  recycling revolution</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/da1c7642-3d88-40f5-a4c2-682455194b21" target="_blank">Climate engineering: a quick fix or a risky distraction?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2" target="_blank">Inflation and interest rates tracker: see how your country compares</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/028a3a2d-8369-4874-a7be-9d23e351c838" target="_blank">Europe’s growth prospects hit by fiscal restraint</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/e6b74d70-91a7-4216-aadb-375c9343427b" target="_blank">South America’s ‘made in China’ megaport prepares to transform trade</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0a219548-9c27-4e69-a76d-c543f1eddfab" target="_blank">Labour loses 40% of council seats defended since UK general election </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/35daf515-71bf-4de0-bc79-959a2d93ba71" target="_blank">Was it really inflation that swung it for Trump? </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/115a49cd-c07c-4581-b946-dcc8fd6c8c2c" target="_blank">Consumer anger over high prices piles pressure on politicians</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1bf29f6e-fcdf-462a-b257-d1690ff53825" target="_blank">Europe’s winter gas supplies at risk from market disruptions</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/002fe4ce-14f3-44b5-a617-6015d0c3e11d" target="_blank">US election 2024 as it happened: World leaders congratulate Trump, Republicans’ control of Senate swells</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/46de2ef1-e496-49a3-aa55-b1713d060b3c" target="_blank">The Trump-Harris White House race in pictures</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3b93995c-e65e-4532-afc6-9675c35f5a62" target="_blank">What Trump’s former allies say about their old boss </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/4a822d5f-f9c7-4b41-841d-cc727e3468a0" target="_blank">The 7 charts that define the 2024 US presidential campaign</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f984bc60-d8dd-4886-aa7f-bee950119bb7" target="_blank">Divided America: will gender decide who wins the White House?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/31b728d9-7426-4abb-a995-f2d191f8bf7e" target="_blank">Deadly Spanish floods drive home threat of Mediterranean ‘petrol can’</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/9ace4635-d71e-4d19-a385-5bd84dcc30e6" target="_blank">Democrats braced for jobs report blow ahead of election</a></li>
 									</ol>			
 		</div>
 				<div id="War in Ukraine" class="tabcontent">
@@ -2523,9 +2427,11 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/42bbe534-8a0d-4ba8-9cc6-f84936d87196" target="_blank">The Israel-Hamas war — in maps and charts</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2" target="_blank">Inflation and interest rates tracker: see how your country compares</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/91865463-4b93-448c-95bb-8525ccb1016e" target="_blank">Brits retiring abroad could avoid UK inheritance tax under new loophole</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0684127a-61de-41f4-af39-d36e0a1ffc5d" target="_blank">Gisèle Pelicot, the woman at the heart of a trial that has shocked France</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1ef2a6ef-a623-484f-9879-8cb3c26f67fb" target="_blank">Inside the bitter fight to become Donald Trump’s Treasury secretary</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5ad291a2-b768-42d5-a606-a6d37eb700d4" target="_blank">Trump nominates Bondi for US attorney-general after Gaetz drops out</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f7d1330e-9c76-435d-88b5-253befe1e4a9" target="_blank">US universities brace for ‘perfect storm’ of pressures under Trump</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bfb404e8-aa7e-4795-a60c-454a310293cc" target="_blank">Trump’s return sends shivers through the anti-misinformation world</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5174e806-725f-4bf3-bf82-a73686e63ebd" target="_blank">Missing Israeli rabbi found murdered in UAE</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cdd51e5c-5815-4ae5-ab32-4d1313dc9302" target="_blank">How Downtown Miami is getting its groove back</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ab0cb3fc-e45d-454b-83d9-c0284550aafe" target="_blank">Britain’s political consensus on climate starts to fracture</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
@@ -2534,7 +2440,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/23d5cbaa-7467-47d9-b794-75fa44782132" target="_blank">Fate of Adani alleged bribery case could hang on Trump presidency</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f428e4ff-4dd9-4613-8485-dfc77fa154ec" target="_blank">Hospitals urged to check staff use of WhatsApp to ensure patient safety</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b3b0ef60-ee1a-4c0b-a0a9-2db1da80d3f4" target="_blank">Climate COPs and the art of the deal </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/31429c63-70ef-4213-9732-f05ef4422dae" target="_blank">Biden aims to Trump-proof his legacy with policy blitz in final days</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca809d14-5fb1-4586-b1ae-bf8ccae7d300" target="_blank">Ex-Barclays chief John Varley pulled back into fight to clear bank’s name</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/97050b29-02bf-4a2c-8629-9d1c8509dc55" target="_blank">Hollywood gives thanks for blockbusters after long lean period</a></li>
@@ -2545,9 +2450,7 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3f8fffe7-bd2e-417b-ae8a-51497203d74b" target="_blank">What Generation Alpha wants to learn about money </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ac17ef21-7a9d-4366-9b9e-343489785f9b" target="_blank">Samsung’s princeling heir Lee Jae-yong grapples with corporate crisis</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5d1d1137-c0ae-476e-941e-6811d59cea28" target="_blank">Confessions of a farmer’s daughter</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/28e21258-2067-4c4b-bc2d-0645336530fa" target="_blank">The Great Mughals at the V&amp;A — art, opulence and military power</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8292727b-48a9-489a-8b69-443271ba3957" target="_blank">Do they know it’s Africa, at all?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/82f41182-0344-4e17-86ef-a2e61e689edf" target="_blank">Italian trader played polo against Prince William while under US sanctions</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0684127a-61de-41f4-af39-d36e0a1ffc5d" target="_blank">Gisèle Pelicot, the woman at the heart of a trial that has shocked France</a></li>
 									</ol>			
 		</div>
 				<div id="World Home" class="tabcontent">
@@ -2569,9 +2472,11 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/42bbe534-8a0d-4ba8-9cc6-f84936d87196" target="_blank">The Israel-Hamas war — in maps and charts</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2" target="_blank">Inflation and interest rates tracker: see how your country compares</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/91865463-4b93-448c-95bb-8525ccb1016e" target="_blank">Brits retiring abroad could avoid UK inheritance tax under new loophole</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0684127a-61de-41f4-af39-d36e0a1ffc5d" target="_blank">Gisèle Pelicot, the woman at the heart of a trial that has shocked France</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/1ef2a6ef-a623-484f-9879-8cb3c26f67fb" target="_blank">Inside the bitter fight to become Donald Trump’s Treasury secretary</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5ad291a2-b768-42d5-a606-a6d37eb700d4" target="_blank">Trump nominates Bondi for US attorney-general after Gaetz drops out</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f7d1330e-9c76-435d-88b5-253befe1e4a9" target="_blank">US universities brace for ‘perfect storm’ of pressures under Trump</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/bfb404e8-aa7e-4795-a60c-454a310293cc" target="_blank">Trump’s return sends shivers through the anti-misinformation world</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5174e806-725f-4bf3-bf82-a73686e63ebd" target="_blank">Missing Israeli rabbi found murdered in UAE</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/cdd51e5c-5815-4ae5-ab32-4d1313dc9302" target="_blank">How Downtown Miami is getting its groove back</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ab0cb3fc-e45d-454b-83d9-c0284550aafe" target="_blank">Britain’s political consensus on climate starts to fracture</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/afd4ca89-b69d-4ddd-a5a1-4793abce9ed3" target="_blank">E-scooter backlash could send fledgling sector off course</a></li>
@@ -2580,7 +2485,6 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/23d5cbaa-7467-47d9-b794-75fa44782132" target="_blank">Fate of Adani alleged bribery case could hang on Trump presidency</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/f428e4ff-4dd9-4613-8485-dfc77fa154ec" target="_blank">Hospitals urged to check staff use of WhatsApp to ensure patient safety</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/b3b0ef60-ee1a-4c0b-a0a9-2db1da80d3f4" target="_blank">Climate COPs and the art of the deal </a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/785c5414-60c7-453d-aa26-e712d8c5ab58" target="_blank">UK wealth managers warn Reeves over plan to levy inheritance tax on pensions </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/31429c63-70ef-4213-9732-f05ef4422dae" target="_blank">Biden aims to Trump-proof his legacy with policy blitz in final days</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ca809d14-5fb1-4586-b1ae-bf8ccae7d300" target="_blank">Ex-Barclays chief John Varley pulled back into fight to clear bank’s name</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/97050b29-02bf-4a2c-8629-9d1c8509dc55" target="_blank">Hollywood gives thanks for blockbusters after long lean period</a></li>
@@ -2591,9 +2495,7 @@
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/3f8fffe7-bd2e-417b-ae8a-51497203d74b" target="_blank">What Generation Alpha wants to learn about money </a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/ac17ef21-7a9d-4366-9b9e-343489785f9b" target="_blank">Samsung’s princeling heir Lee Jae-yong grapples with corporate crisis</a></li>
 											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/5d1d1137-c0ae-476e-941e-6811d59cea28" target="_blank">Confessions of a farmer’s daughter</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/28e21258-2067-4c4b-bc2d-0645336530fa" target="_blank">The Great Mughals at the V&amp;A — art, opulence and military power</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/8292727b-48a9-489a-8b69-443271ba3957" target="_blank">Do they know it’s Africa, at all?</a></li>
-											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/82f41182-0344-4e17-86ef-a2e61e689edf" target="_blank">Italian trader played polo against Prince William while under US sanctions</a></li>
+											<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.ft.com/content/0684127a-61de-41f4-af39-d36e0a1ffc5d" target="_blank">Gisèle Pelicot, the woman at the heart of a trial that has shocked France</a></li>
 									</ol>			
 		</div>
 			<body>
